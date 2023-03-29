@@ -2,6 +2,14 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 import { Container } from "react-bootstrap";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Youtube,
+} from "react-bootstrap-icons";
 
 export default function Footer() {
   const router = useRouter();
@@ -308,7 +316,7 @@ export default function Footer() {
                         target="_blank"
                         title="linkedin-in"
                       >
-                        <i className="fa fa-linkedin" aria-hidden="true" />
+                        <Linkedin />
                       </Link>
                     </li>
                     <li>
@@ -319,7 +327,7 @@ export default function Footer() {
                         target="_blank"
                         title="Twitter"
                       >
-                        <i className="fa fa-twitter" aria-hidden="true" />
+                        <Twitter />
                       </Link>
                     </li>
                     <li>
@@ -330,7 +338,7 @@ export default function Footer() {
                         target="_blank"
                         title="Instagram"
                       >
-                        <i className="fa fa-instagram" aria-hidden="true" />
+                        <Instagram />
                       </Link>
                     </li>
                     <li>
@@ -341,7 +349,7 @@ export default function Footer() {
                         target="_blank"
                         title="Facebook"
                       >
-                        <i className="fa fa-facebook" aria-hidden="true" />
+                        <Facebook />
                       </Link>
                     </li>
                     <li>
@@ -363,7 +371,7 @@ export default function Footer() {
                         target="_blank"
                         title="Youtube"
                       >
-                        <i className="fa fa-youtube" aria-hidden="true" />
+                        <Youtube />
                       </Link>
                     </li>
                   </ul>
