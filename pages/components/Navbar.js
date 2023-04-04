@@ -5,6 +5,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 export default function navbarMain() {
   const router = useRouter();
+  const currentRoute = router.pathname;
   return (
     <Navbar bg="light" expand="lg" className="navbar-main">
       <Container fluid>
@@ -15,7 +16,7 @@ export default function navbarMain() {
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <ul className="navbar-nav ml-auto info-nav">
+          <ul className="navbar-nav info-nav">
             <li className="nav-item">
               <Link
                 className="nav-link"
@@ -56,30 +57,53 @@ export default function navbarMain() {
               </Link>
             </li>
           </ul>
-          <ul className="navbar-nav ml-auto main-nav">
+          <ul className="navbar-nav main-nav">
             <li className="nav-item">
-              <Link className="nav-link" href="/about">
+              <Link
+                href="/about"
+                className={
+                  router.pathname == "/about" ? "active nav-link" : "nav-link"
+                }
+              >
                 <span className="nav-block">About Us</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/products">
+              <Link
+                href="/products"
+                className={
+                  router.pathname == "/products"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Products</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" href="/services">
+              <Link
+                href="/services"
+                className={
+                  router.pathname == "/services"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Services</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" href="/portfolio">
+              <Link
+                href="/portfolio"
+                className={
+                  router.pathname == "/portfolio"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Portfolio</span>
               </Link>
             </li>
-
             <li className="nav-item">
               <Link
                 className="nav-link"
@@ -89,46 +113,39 @@ export default function navbarMain() {
                 <span className="nav-block">Blog</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" href="/achievement">
+              <Link
+                href="/achievement"
+                className={
+                  router.pathname == "/achievement"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Achievement</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" href="/careers">
+              <Link
+                href="/careers"
+                className={
+                  router.pathname == "/careers" ? "active nav-link" : "nav-link"
+                }
+              >
                 <span className="nav-block">Careers</span>
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" href="/contact">
+              <Link
+                href="/contact"
+                className={
+                  router.pathname == "/contact" ? "active nav-link" : "nav-link"
+                }
+              >
                 <span className="nav-block">Contact</span>
               </Link>
             </li>
           </ul>
-
-          {/* <Nav className="me-auto">
-            <li>
-              <Link href="#home">Home</Link>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <Link href="#link">Link</Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

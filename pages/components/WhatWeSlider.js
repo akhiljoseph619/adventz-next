@@ -12,14 +12,7 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
 
-const Responsive = {
-  loop: false,
-  nav: true,
-  dots: false,
-  autoplay: false,
-  autoplayTimeout: 2000,
-  margin: 20,
-  lazyLoad: true,
+const whatWeResponsive = {
   0: {
     items: 1,
     slideBy: 1,
@@ -46,7 +39,7 @@ export default function WhatWeSlider() {
         nav={true}
         dots={false}
         navText={false}
-        responsive={Responsive}
+        responsive={whatWeResponsive}
       >
         <div className="item">
           <div className="what-we-item">

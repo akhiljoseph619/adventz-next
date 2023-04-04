@@ -12,31 +12,26 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
 
-const Responsive = {
-  loop: true,
-  nav: false,
-  dots: true,
-  navText: "",
-  lazyLoad: true,
-  autoplay: false,
-  autoplayTimeout: 2000,
-  margin: 5,
-  responsive: {
-    0: {
-      items: 2,
-    },
-    480: {
-      items: 2,
-    },
-    768: {
-      items: 3,
-    },
-    992: {
-      items: 4,
-    },
-    1200: {
-      items: 6,
-    },
+const comResponsive = {
+  0: {
+    items: 2,
+    slideBy: 2,
+  },
+  480: {
+    items: 2,
+    slideBy: 2,
+  },
+  768: {
+    items: 3,
+    slideBy: 3,
+  },
+  992: {
+    items: 4,
+    slideBy: 4,
+  },
+  1200: {
+    items: 6,
+    slideBy: 6,
   },
 };
 
@@ -57,7 +52,7 @@ export default function WhatWeSlider() {
                 nav={true}
                 dots={false}
                 navText={false}
-                responsive={Responsive}
+                responsive={comResponsive}
               >
                 <div className="item">
                   <div className="groups-item">

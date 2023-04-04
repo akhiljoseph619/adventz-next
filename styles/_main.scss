@@ -362,7 +362,8 @@ button:focus {
         }
       }
 
-      &:hover {
+      &:hover,
+      &.active {
         color: var(--color-100) !important;
 
         .nav-block {
