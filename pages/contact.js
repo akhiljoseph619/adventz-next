@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Contact() {
   return (
@@ -83,7 +83,7 @@ export default function Contact() {
                   <div className="co-form-hd">
                     <p>contact</p>
                     <h2>
-                      Let’s talk about your{" "}
+                      Let's talk about your{' '}
                       <span className="color-red">project</span>
                     </h2>
                   </div>
@@ -160,7 +160,7 @@ export default function Contact() {
                           alt="Creative design Agency"
                         />
                       </span>
-                      + (968) - 9126 9531{" "}
+                      + (968) - 9126 9531{' '}
                     </li>
                     <li>
                       <span className="con-icon">

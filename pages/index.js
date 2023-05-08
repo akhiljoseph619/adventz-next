@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import Carousel from 'react-bootstrap/Carousel';
+import { Container, Row, Col, Carousel, Modal } from 'react-bootstrap';
 import WhatWeSlider from './components/WhatWeSlider';
 import TrustSection from './components/TrustSection';
 import TestimonialSlider from './components/TestimonialSlider';
@@ -19,8 +20,73 @@ export default function Home() {
     setIsHovering(false);
   };
 
+  const [showModal, setShowModal] = useState(false);
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
+
   return (
     <>
+      <>
+        <Modal
+          className="consultaion-modal"
+          show={showModal}
+          onHide={handleCloseModal}
+        >
+          <Modal.Body>
+            <button className="btn-modal-close" onClick={handleCloseModal}>
+              <i className="bi bi-x-lg"></i>
+            </button>
+            <div className="contact-form">
+              <div className="co-form-hd">
+                <p>contact</p>
+                <h2>
+                  Let's talk about your{' '}
+                  <span className="color-red">project</span>
+                </h2>
+              </div>
+              <div className="co-form-body">
+                <div id="alert" />
+                <form method="GET" onsubmit="return contact_submit(this)">
+                  <div className="form-group">
+                    <div className="input-field">
+                      <input
+                        className="form-control"
+                        name="phone"
+                        placeholder="Your Phone Number with Country Code"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div className="form-group">
+                    <div className="input-field">
+                      <input
+                        className="form-control"
+                        type="email"
+                        name="email"
+                        placeholder="Your Email Address"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div className="form-group">
+                    <div className="input-field">
+                      <input
+                        name="requirement"
+                        className="form-control"
+                        placeholder="Requirement"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <button className="btn btn-quote cont_send">
+                    Get Free Consultation
+                  </button>
+                </form>
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </>
       <section className="banner-sec">
         <div className="banner-bk-graphics">
           <div className="banner-bk-ptc banner-bk-ptc-01">
@@ -96,7 +162,7 @@ export default function Home() {
                   </Carousel.Item>
                   <Carousel.Item>
                     <div className="banner-graphic">
-                      <a href="javascript:;">
+                      <a href="">
                         <video
                           playsinline={true}
                           autoPlay={true}
@@ -210,15 +276,19 @@ export default function Home() {
                       We create one-of-a-kind, custom-made experiences for our
                       clients through digital marketing & innovative concepts
                     </p>
-                    <a className="btn btn-service btn-shine" href="#services">
+                    <Link
+                      className="btn btn-service btn-shine"
+                      href="#services"
+                    >
                       Explore Services
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn btn-consultation btn-shine"
-                      href="javascript:;"
+                      href=""
+                      onClick={handleShowModal}
                     >
                       Get Free Consultation
-                    </a>
+                    </Link>
                   </div>
                 </Carousel.Item>
                 <Carousel.Item>
