@@ -1,8 +1,24 @@
+import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import Carousel from 'react-bootstrap/Carousel';
 import WhatWeSlider from './components/WhatWeSlider';
 import TrustSection from './components/TrustSection';
 import TestimonialSlider from './components/TestimonialSlider';
 
 export default function Home() {
+  const router = useRouter();
+
+  // Bootstra carousel hover pause
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  };
+
   return (
     <>
       <section className="banner-sec">
@@ -23,65 +39,94 @@ export default function Home() {
           <div className="banner-cover">
             <div className="banner-gra-col">
               <div className="banner-graphic-cover">
-                <div
-                  id="carouselBanner"
-                  className="carousel slide carousel-fade"
-                  data-ride="carousel"
-                  data-interval="2000"
+                <Carousel
+                  pause={!isHovering}
+                  fade
+                  controls={false}
+                  indicators={false}
                 >
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <div className="banner-graphic">
+                  <Carousel.Item>
+                    <div className="banner-graphic">
+                      <img
+                        src="images/slider-img.png"
+                        alt="Website Development Oman"
+                      />
+                    </div>
+                    <div className="banner-shape-cover">
+                      <div className="banner-shape banner-shape-01">
                         <img
-                          src="images/slider-img.png"
+                          src="images/banner-rec-shape-01.png"
                           alt="Website Development Oman"
                         />
                       </div>
-                      <div className="banner-shape-cover">
-                        <div className="banner-shape banner-shape-01">
-                          <img
-                            src="images/banner-rec-shape-01.png"
-                            alt="Website Development Oman"
-                          />
-                        </div>
-                        <div className="banner-shape banner-shape-02">
-                          <img
-                            src="images/banner-rec-shape-02.png"
-                            alt="Seo and digital marketing "
-                          />
-                        </div>
+                      <div className="banner-shape banner-shape-02">
+                        <img
+                          src="images/banner-rec-shape-02.png"
+                          alt="Seo and digital marketing "
+                        />
                       </div>
                     </div>
-
-                    <a
-                      href="https://www.google.com/partners/agency?id=6629473271"
-                      target="_blank"
-                    >
-                      <div className="carousel-item">
-                        <div className="banner-graphic">
-                          <img
-                            src="images/slider-google-img.png"
-                            alt="Website Development Oman"
-                          />
-                        </div>
-                        <div className="banner-shape-cover">
-                          <div className="banner-shape banner-shape-01">
-                            <img
-                              src="images/banner-rec-shape-google-01.png"
-                              alt="Website Development Oman"
-                            />
-                          </div>
-                          <div className="banner-shape banner-shape-02">
-                            <img
-                              src="images/banner-rec-shape-google-02.png"
-                              alt="Seo and digital marketing "
-                            />
-                          </div>
-                        </div>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <div className="banner-graphic">
+                      <a
+                        href="https://www.google.com/partners/agency?id=6629473271"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/slider-google-img.png"
+                          alt="Website Development Oman"
+                        />
+                      </a>
+                    </div>
+                    <div className="banner-shape-cover">
+                      <div className="banner-shape banner-shape-01">
+                        <img
+                          src="images/banner-rec-shape-google-01.png"
+                          alt="Website Development Oman"
+                        />
                       </div>
-                    </a>
-                  </div>
-                </div>
+                      <div className="banner-shape banner-shape-02">
+                        <img
+                          src="images/banner-rec-shape-google-02.png"
+                          alt="Seo and digital marketing "
+                        />
+                      </div>
+                    </div>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <div className="banner-graphic">
+                      <a href="javascript:;">
+                        <video
+                          playsinline={true}
+                          autoPlay={true}
+                          loop={true}
+                          muted={true}
+                          poster="images/slider-google-img.jpg"
+                        >
+                          <source
+                            src="videos/slider-google-vid.webm"
+                            type="video/webm"
+                          />
+                        </video>
+                      </a>
+                    </div>
+                    <div className="banner-shape-cover">
+                      <div className="banner-shape banner-shape-01">
+                        <img
+                          src="images/banner-rec-shape-google-01.png"
+                          alt="Website Development Oman"
+                        />
+                      </div>
+                      <div className="banner-shape banner-shape-02">
+                        <img
+                          src="images/banner-rec-shape-google-02.png"
+                          alt="Seo and digital marketing "
+                        />
+                      </div>
+                    </div>
+                  </Carousel.Item>
+                </Carousel>
 
                 <div className="parallax-eff banner-particle">
                   <div className="particle particle-01">
@@ -149,24 +194,45 @@ export default function Home() {
               </div>
             </div>
             <div className="banner-con-col">
-              <div className="banner-content">
-                <h1>
-                  Expand Your <span className="color-black">Digital</span>{' '}
-                  Presence
-                </h1>
-                <p>
-                  We create one-of-a-kind, custom-made experiences for our
-                  clients through digital marketing & innovative concepts
-                </p>
-                <a
-                  className="btn btn-consultation btn-shine"
-                  href="javascript:;"
-                  data-toggle="modal"
-                  data-target="#enquiryModal"
-                >
-                  Speak to Us
-                </a>
-              </div>
+              <Carousel
+                pause={!isHovering}
+                fade
+                controls={false}
+                indicators={false}
+              >
+                <Carousel.Item>
+                  <div className="banner-content">
+                    <h1>
+                      Expand Your
+                      <span className="color-black">Digital</span> Presence
+                    </h1>
+                    <p>
+                      We create one-of-a-kind, custom-made experiences for our
+                      clients through digital marketing & innovative concepts
+                    </p>
+                    <a className="btn btn-service btn-shine" href="#services">
+                      Explore Services
+                    </a>
+                    <a
+                      className="btn btn-consultation btn-shine"
+                      href="javascript:;"
+                    >
+                      Get Free Consultation
+                    </a>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="banner-content">
+                    <h1>
+                      <span className="color-black">
+                        Growth hacking through omnichannel
+                      </span>{' '}
+                      marketing
+                    </h1>
+                    <p>Synergizing marketing channels for exponential growth</p>
+                  </div>
+                </Carousel.Item>
+              </Carousel>
             </div>
           </div>
         </div>

@@ -36,59 +36,59 @@
 }
 
 @font-face {
-  font-family: "Blinker";
-  src: url("../public/fonts/Blinker-ExtraLight.eot");
-  src: url("../public/fonts/Blinker-ExtraLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/fonts/Blinker-ExtraLight.woff2") format("woff2"),
-    url("../public/fonts/Blinker-ExtraLight.woff") format("woff"),
-    url("../public/fonts/Blinker-ExtraLight.ttf") format("truetype");
+  font-family: 'Blinker';
+  src: url('../public/fonts/Blinker-ExtraLight.eot');
+  src: url('../public/fonts/Blinker-ExtraLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/Blinker-ExtraLight.woff2') format('woff2'),
+    url('../public/fonts/Blinker-ExtraLight.woff') format('woff'),
+    url('../public/fonts/Blinker-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Blinker";
-  src: url("../public/fonts/Blinker-SemiBold.eot");
-  src: url("../public/fonts/Blinker-SemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/fonts/Blinker-SemiBold.woff2") format("woff2"),
-    url("../public/fonts/Blinker-SemiBold.woff") format("woff"),
-    url("../public/fonts/Blinker-SemiBold.ttf") format("truetype");
+  font-family: 'Blinker';
+  src: url('../public/fonts/Blinker-SemiBold.eot');
+  src: url('../public/fonts/Blinker-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/Blinker-SemiBold.woff2') format('woff2'),
+    url('../public/fonts/Blinker-SemiBold.woff') format('woff'),
+    url('../public/fonts/Blinker-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Blinker";
-  src: url("../public/fonts/Blinker-Bold.eot");
-  src: url("../public/fonts/Blinker-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/fonts/Blinker-Bold.woff2") format("woff2"),
-    url("../public/fonts/Blinker-Bold.woff") format("woff"),
-    url("../public/fonts/Blinker-Bold.ttf") format("truetype");
+  font-family: 'Blinker';
+  src: url('../public/fonts/Blinker-Bold.eot');
+  src: url('../public/fonts/Blinker-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/Blinker-Bold.woff2') format('woff2'),
+    url('../public/fonts/Blinker-Bold.woff') format('woff'),
+    url('../public/fonts/Blinker-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Blinker";
-  src: url("../public/fonts/Blinker-Regular.eot");
-  src: url("../public/fonts/Blinker-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/fonts/Blinker-Regular.woff2") format("woff2"),
-    url("../public/fonts/Blinker-Regular.woff") format("woff"),
-    url("../public/fonts/Blinker-Regular.ttf") format("truetype");
+  font-family: 'Blinker';
+  src: url('../public/fonts/Blinker-Regular.eot');
+  src: url('../public/fonts/Blinker-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/Blinker-Regular.woff2') format('woff2'),
+    url('../public/fonts/Blinker-Regular.woff') format('woff'),
+    url('../public/fonts/Blinker-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  font-family: "Blinker";
+  font-family: 'Blinker';
   font-style: normal;
   font-size: 1rem;
 }
@@ -195,7 +195,7 @@ button:focus {
   overflow: hidden;
 
   &:before {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     top: 0;
@@ -348,7 +348,7 @@ button:focus {
         position: relative;
 
         &::after {
-          content: "";
+          content: '';
           position: absolute;
           left: 0;
           right: 0;
@@ -495,7 +495,11 @@ button:focus {
 .banner-graphic-cover {
   position: relative;
   max-width: 686px;
-  z-index: 5;
+
+  .carousel {
+    position: relative;
+    z-index: 15;
+  }
 
   .banner-graphic {
     img {
@@ -614,7 +618,8 @@ button:focus {
 
       &::before,
       &::after {
-        content: "";
+        display: none;
+        content: '';
         position: absolute;
         left: 50%;
         top: 50%;
@@ -737,7 +742,7 @@ button:focus {
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 50%;
       top: 50%;
@@ -809,7 +814,7 @@ button:focus {
         margin: 0 0 1rem 0;
 
         &::before {
-          content: "";
+          content: '';
           display: inline-block;
           vertical-align: middle;
           width: 16px;
@@ -862,7 +867,7 @@ button:focus {
   }
 }
 
-[data-aos="what-we-anim"].aos-animate .what-we-item::before {
+[data-aos='what-we-anim'].aos-animate .what-we-item::before {
   animation: blockReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 1s forwards;
 }
 
@@ -983,7 +988,7 @@ button:focus {
   }
 }
 
-[data-aos="trust-anim"].aos-animate .trust-item::before {
+[data-aos='trust-anim'].aos-animate .trust-item::before {
   animation: blockReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 1s forwards;
 }
 
@@ -1091,7 +1096,7 @@ button:focus {
   }
 
   .owl-theme .owl-dots .owl-dot.active span::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1103,7 +1108,7 @@ button:focus {
   }
 }
 
-[data-aos="testimonial-anim"].aos-animate .testimonial-cover::before {
+[data-aos='testimonial-anim'].aos-animate .testimonial-cover::before {
   animation: blockReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 1s forwards;
 }
 
@@ -1274,7 +1279,7 @@ button:focus {
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 0;
       height: 1px;
@@ -1302,7 +1307,7 @@ button:focus {
 
       &::before,
       &::after {
-        content: "";
+        content: '';
         width: 1px;
         height: 0;
         position: absolute;
@@ -1367,7 +1372,7 @@ button:focus {
   }
 
   .owl-theme .owl-dots .owl-dot.active span::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1527,7 +1532,7 @@ button:focus {
     margin: 0 0 4rem 0;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: -60px;
       top: -20px;
@@ -1546,7 +1551,7 @@ button:focus {
       padding-right: 1rem;
 
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 0;
@@ -1612,11 +1617,11 @@ button:focus {
   }
 }
 
-[data-aos="contact-anim"].aos-animate .contact-form::before {
+[data-aos='contact-anim'].aos-animate .contact-form::before {
   animation: blockReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 1s forwards;
 }
 
-[data-aos="contact-anim"].aos-animate .contact-add-cover::before {
+[data-aos='contact-anim'].aos-animate .contact-add-cover::before {
   animation: blockReveal 0.6s cubic-bezier(0.13, 0.13, 0.02, 1.07) 1.25s
     forwards;
 }
@@ -1654,7 +1659,7 @@ button:focus {
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 0;
       height: 1px;
@@ -1682,7 +1687,7 @@ button:focus {
 
       &::before,
       &::after {
-        content: "";
+        content: '';
         width: 1px;
         height: 0;
         position: absolute;
@@ -1747,7 +1752,7 @@ button:focus {
   }
 
   .owl-theme .owl-dots .owl-dot.active span::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1901,7 +1906,7 @@ button:focus {
         white-space: nowrap;
 
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           left: -1rem;
           top: 49%;
@@ -1951,7 +1956,7 @@ button:focus {
         text-decoration: none;
 
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           left: 0;
           top: 8px;
@@ -2040,7 +2045,7 @@ button:focus {
         text-decoration: none;
 
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           left: 50%;
           top: 50%;
@@ -2617,7 +2622,7 @@ button:focus {
         box-shadow: none;
 
         &::before {
-          content: "";
+          content: '';
           display: inline-block;
           border-left: 5px solid var(--color-100);
           border-top: 5px solid transparent;
@@ -2899,7 +2904,7 @@ button:focus {
       }
 
       ul li::before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 4px;
@@ -3434,7 +3439,7 @@ button:focus {
   }
 
   .owl-theme .owl-dots .owl-dot.active span::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -3510,7 +3515,7 @@ button:focus {
         height: 100%;
 
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           left: 0;
           top: 50%;
@@ -3600,7 +3605,7 @@ button:focus {
   overflow: hidden;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -3942,7 +3947,7 @@ button:focus {
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 0;
       height: 0;
@@ -4045,7 +4050,7 @@ button:focus {
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -4071,7 +4076,7 @@ button:focus {
     @include trans-ease-out();
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 50%;
       top: 50%;
@@ -4309,7 +4314,7 @@ button:focus {
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 0;
       height: 0;
@@ -4441,7 +4446,7 @@ button:focus {
       margin-bottom: 0.5rem;
 
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 8px;
@@ -4878,7 +4883,7 @@ button:focus {
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -4906,7 +4911,7 @@ button:focus {
     @include trans-ease-out();
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 50%;
       top: 50%;
@@ -5198,7 +5203,7 @@ button:focus {
         }
 
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           left: 0;
           top: 0;
@@ -5308,7 +5313,7 @@ button:focus {
   align-items: flex-start;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -5337,7 +5342,7 @@ button:focus {
     @include trans-ease-out();
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 50%;
       top: 50%;
