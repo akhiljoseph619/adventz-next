@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <>
       <section className="footer-sec">
-        <Container xl>
+        <Container fluid="xl">
           <Row>
             <Col xs={12}>
               <div className="footer-scroll">
