@@ -1,14 +1,14 @@
-import React from "react";
-var $ = require("jquery");
-if (typeof window !== "undefined") {
+import React from 'react';
+var $ = require('jquery');
+if (typeof window !== 'undefined') {
   // Client-side-only code
-  window.$ = window.jQuery = require("jquery");
+  window.$ = window.jQuery = require('jquery');
 }
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-import dynamic from "next/dynamic";
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import dynamic from 'next/dynamic';
 
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
   ssr: false,
 });
 
@@ -35,7 +35,7 @@ const comResponsive = {
   },
 };
 
-export default function WhatWeSlider() {
+export default function GroupCompanySlider() {
   return (
     <section className="group-sec">
       <div className="container-xl">
@@ -139,7 +139,7 @@ export default function WhatWeSlider() {
                   <div className="groups-item">
                     <div className="groups-bdr">
                       <a href="https://www.osos.om/" target="_blank">
-                        {" "}
+                        {' '}
                         <img src="images/groups-logo-13.jpg" alt="Brand" />
                       </a>
                     </div>

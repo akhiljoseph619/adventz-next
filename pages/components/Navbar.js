@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Navbar } from 'react-bootstrap';
 
 export default function navbarMain() {
   const router = useRouter();
@@ -62,7 +62,7 @@ export default function navbarMain() {
               <Link
                 href="/about"
                 className={
-                  router.pathname == "/about" ? "active nav-link" : "nav-link"
+                  router.pathname == '/about' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">About Us</span>
@@ -70,11 +70,11 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/products"
+                href="/ERaffleProducts"
                 className={
-                  router.pathname == "/products"
-                    ? "active nav-link"
-                    : "nav-link"
+                  router.pathname == '/ERaffleProducts'
+                    ? 'active nav-link'
+                    : 'nav-link'
                 }
               >
                 <span className="nav-block">Products</span>
@@ -82,11 +82,11 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/services"
+                href="/E-CommerceServices"
                 className={
-                  router.pathname == "/services"
-                    ? "active nav-link"
-                    : "nav-link"
+                  router.pathname == '/E-CommerceServices'
+                    ? 'active nav-link'
+                    : 'nav-link'
                 }
               >
                 <span className="nav-block">Services</span>
@@ -96,9 +96,9 @@ export default function navbarMain() {
               <Link
                 href="/portfolio"
                 className={
-                  router.pathname == "/portfolio"
-                    ? "active nav-link"
-                    : "nav-link"
+                  router.pathname == '/portfolio'
+                    ? 'active nav-link'
+                    : 'nav-link'
                 }
               >
                 <span className="nav-block">Portfolio</span>
@@ -117,9 +117,9 @@ export default function navbarMain() {
               <Link
                 href="/achievement"
                 className={
-                  router.pathname == "/achievement"
-                    ? "active nav-link"
-                    : "nav-link"
+                  router.pathname == '/achievement'
+                    ? 'active nav-link'
+                    : 'nav-link'
                 }
               >
                 <span className="nav-block">Achievement</span>
@@ -129,7 +129,7 @@ export default function navbarMain() {
               <Link
                 href="/careers"
                 className={
-                  router.pathname == "/careers" ? "active nav-link" : "nav-link"
+                  router.pathname == '/careers' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">Careers</span>
@@ -139,7 +139,7 @@ export default function navbarMain() {
               <Link
                 href="/contact"
                 className={
-                  router.pathname == "/contact" ? "active nav-link" : "nav-link"
+                  router.pathname == '/contact' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">Contact</span>

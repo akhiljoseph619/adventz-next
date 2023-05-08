@@ -1,9 +1,22 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import Head from 'next/head';
+import Link from 'next/link';
+import ServicesNav from './components/ServicesNav';
 
-export default function Services() {
+export default function EcommerceServices() {
   return (
     <>
+      <Head>
+        <title>Services | Ecommerce Services And Digital Marketing</title>
+        <meta
+          name="keywords"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
+        />
+        <meta
+          name="description"
+          content="Adventz focuses on delivering eCommerce development solutions in Oman designed to meet your Web Commerce needs impeccably. Your eCommerce Experts. Get In Touch"
+        />
+      </Head>
+
       <section className="ins-banner-sec">
         <div className="container-xl">
           <div className="row">
@@ -57,9 +70,11 @@ export default function Services() {
                 </div>
                 <div className="ins-banner-hd">
                   <h1>
-                    <span className="color-red">Services</span>
+                    <span className="color-red">
+                      E-commerce Services In Oman
+                    </span>
                   </h1>
-                  <p>#E-Raffle</p>
+                  <p>#E-commerceMarketing</p>
                 </div>
               </div>
             </div>
@@ -93,91 +108,9 @@ export default function Services() {
           <div className="container-xl">
             <div className="row">
               <div className="col-12">
-                <ul className="service-tb-nav">
-                  <li className="nav-item">
-                    <a className="nav-link active" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/service-nav-04.png"
-                          alt="e-commerce website"
-                        />
-                        <img
-                          className="hover"
-                          src="images/service-nav-hover-04.png"
-                          alt="E-Commerce Services"
-                        />
-                      </span>
-                      <span className="nav-label">E-Commerce Services</span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/service-nav-02.png"
-                          alt="E-Commerce Services"
-                        />
-                        <img
-                          className="hover"
-                          src="images/service-nav-hover-02.png"
-                          alt="Branding Services"
-                        />
-                      </span>
-                      <span className="nav-label">Branding Services</span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/service-nav-03.png"
-                          alt="Branding Service oman"
-                        />
-                        <img
-                          className="hover"
-                          src="images/service-nav-hover-03.png"
-                          alt="Website Services development"
-                        />
-                      </span>
-                      <span className="nav-label">Website Services </span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/service-nav-01.png"
-                          alt="marketing-services"
-                        />
-                        <img
-                          className="hover"
-                          src="images/service-nav-hover-01.png"
-                          alt="digital marketing-service"
-                        />
-                      </span>
-                      <span className="nav-label">Marketing Services</span>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/service-nav-05.png"
-                          alt="digital Marketing"
-                        />
-                        <img
-                          className="hover"
-                          src="images/service-nav-hover-05.png"
-                          alt="seo marketing"
-                        />
-                      </span>
-                      <span className="nav-label">Mobile App Services</span>
-                    </a>
-                  </li>
-                </ul>
+                <ServicesNav />
               </div>
             </div>
-
             <div className="row mx-n2 mx-lg-n4">
               <div className="col-12 col-md-6 px-2 px-lg-4">
                 <div className="service-item">
@@ -358,7 +291,7 @@ export default function Services() {
                     <p>
                       Affiliate marketing has grown in popularity over the last
                       few years across the globe and is known to provide
-                      exceptional benefits to both advertisers and publishers.{" "}
+                      exceptional benefits to both advertisers and publishers.{' '}
                       <br /> We're an affiliate marketing network that connects
                       brands looking to promote their products and services with
                       publishers looking for interesting and high-quality
@@ -371,12 +304,12 @@ export default function Services() {
             <div className="row">
               <div className="col-12">
                 <div className="service-footer-nav">
-                  <a
+                  <Link
                     className="btn btn-explore btn-shine"
-                    href="e-commerce.php"
+                    href="/E-Commerce"
                   >
                     Explore more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

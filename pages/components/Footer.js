@@ -1,15 +1,15 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import Marquee from 'react-fast-marquee';
+import { Container, Row, Col } from 'react-bootstrap';
 
-import { Container } from "react-bootstrap";
-import "bootstrap-icons/font/bootstrap-icons.css";
 import {
   Facebook,
   Instagram,
   Linkedin,
   Twitter,
   Youtube,
-} from "react-bootstrap-icons";
+} from 'react-bootstrap-icons';
 
 export default function Footer() {
   const router = useRouter();
@@ -17,15 +17,10 @@ export default function Footer() {
     <>
       <section className="footer-sec">
         <Container xl>
-          <div className="row">
-            <div className="col-12">
+          <Row>
+            <Col xs={12}>
               <div className="footer-scroll">
-                <marquee
-                  behavior="scroll"
-                  direction="left"
-                  onmouseover="this.stop();"
-                  onmouseout="this.start();"
-                >
+                <Marquee pauseOnHover="true">
                   <ul className="scroll-list">
                     <li>
                       <Link href="web-design-oman.php">Oman Web Design</Link>
@@ -93,21 +88,21 @@ export default function Footer() {
                       </Link>
                     </li>
                   </ul>
-                </marquee>
+                </Marquee>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
 
-          <div className="row">
+          <Row>
             <div className="col-12 col-ft-service">
-              <div className="row">
-                <div className="col-12">
+              <Row>
+                <Col xs={12}>
                   <div className="footer-hd">
                     <h3>Service Cloud</h3>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-12 col-sm-6">
+                <Col xs={12} sm={6}>
                   <div className="footer-links">
                     <ul>
                       <li>
@@ -162,9 +157,9 @@ export default function Footer() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </Col>
 
-                <div className="col-12 col-sm-6">
+                <Col xs={12} sm={6}>
                   <div className="footer-links">
                     <ul>
                       <li>
@@ -210,8 +205,8 @@ export default function Footer() {
                       </li>
                     </ul>
                   </div>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </div>
 
             <div className="col-12 col-ft-tech">
@@ -392,10 +387,10 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </Row>
 
-          <div className="row">
-            <div className="col-12">
+          <Row>
+            <Col xs={12}>
               <div className="footer-search">
                 <form action="search-results.php">
                   <div className="input-group">
@@ -411,11 +406,11 @@ export default function Footer() {
                   </div>
                 </form>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
 
-          <div className="row">
-            <div className="col-12 col-md-6">
+          <Row>
+            <Col xs={12} md={6}>
               <div className="footer-logo-cover">
                 <div className="footer-logo">
                   <img
@@ -423,21 +418,19 @@ export default function Footer() {
                     alt="aDventz Logo"
                   />
                 </div>
-
                 <div className="footer-logo-body">
                   <p>&copy; 2023 Adventz. All rights reserved</p>
                 </div>
               </div>
-            </div>
-
-            <div className="col-12 col-md-6">
+            </Col>
+            <Col xs={12} md={6}>
               <ul className="bottom-links">
                 <li>
                   <Link href="privacy-policy.php">Privacy Policy</Link>
                 </li>
               </ul>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>

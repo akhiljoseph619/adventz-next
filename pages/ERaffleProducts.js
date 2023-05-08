@@ -1,8 +1,21 @@
-import Link from 'next/link';
+import Head from 'next/head';
+import ProductsNav from './components/ProductsNav';
 
-export default function Products() {
+export default function ERaffleProducts() {
   return (
     <>
+      <Head>
+        <title>Products | Online Services And Digital Marketing</title>
+        <meta
+          name="keywords"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
+        />
+        <meta
+          name="description"
+          content="Adventz focuses on delivering eCommerce development solutions in Oman designed to meet your Web Commerce needs impeccably. Your eCommerce Experts. Get In Touch"
+        />
+      </Head>
+
       <section className="ins-banner-sec">
         <div className="container-xl">
           <div className="row">
@@ -87,40 +100,7 @@ export default function Products() {
           <div className="container-xl">
             <div className="row">
               <div className="col-12">
-                <ul className="service-tb-nav pro-tb-nav">
-                  <li className="nav-item">
-                    <Link className="nav-link active" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/pro-nav-01.png"
-                          alt="e-commerce website"
-                        />
-                        <img
-                          className="hover"
-                          src="images/pro-nav-hover-01.png"
-                          alt="E-Raffle Products"
-                        />
-                      </span>
-                      <span className="nav-label">E-Raffle Products</span>
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" href="#">
-                      <span className="nav-icon">
-                        <img
-                          src="images/pro-nav-02.png"
-                          alt="E-Commerce Services"
-                        />
-                        <img
-                          className="hover"
-                          src="images/pro-nav-hover-02.png"
-                          alt="Monitoring Alert System"
-                        />
-                      </span>
-                      <span className="nav-label">Alert Monitoring System</span>
-                    </Link>
-                  </li>
-                </ul>
+                <ProductsNav />
               </div>
             </div>
           </div>
@@ -138,8 +118,31 @@ export default function Products() {
                     />
                   </div>
                   <div className="parallax-eff ecom-particle">
-                    <div className="particle particle-01"></div>
-                    <div className="particle particle-02"></div>
+                    <div className="particle particle-01">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 45 45"
+                        className="particle-svg"
+                      >
+                        <polygon
+                          points="29.8,22 40.4,32.6 33.4,39.7 22.8,29.1 12.1,39.7 5.1,32.6 15.7,22 5.1,11.4 12.1,4.3 
+                  22.8,14.9 33.4,4.3 40.4,11.4 "
+                        />
+                      </svg>
+                    </div>
+                    <div className="particle particle-02">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 32 32"
+                        className="particle-svg"
+                      >
+                        <circle cx="16" cy="16" r="13.1" />
+                      </svg>
+                    </div>
                   </div>
                   <div className="ecom-shape-cover">
                     <div className="ecom-shape ecom-shape-01">
