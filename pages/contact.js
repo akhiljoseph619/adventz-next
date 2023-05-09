@@ -1,9 +1,20 @@
+import Head from 'next/head';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 export default function Contact() {
   return (
     <>
+      <Head>
+        <title>Contact Us | Leading Digital Marketing Company Oman</title>
+        <meta
+          name="keywords"
+          content="web design company in oman, web design &amp; development company in oman, adventz muscat oman"
+        />
+        <meta
+          name="description"
+          content="Get in touch with our digital marketing agency in Oman today and take the first step towards improving your online presence. Schedule a consultation today"
+        />
+      </Head>
       <section className="ins-banner-sec">
         <div className="container-xl">
           <div className="row">
@@ -169,7 +180,9 @@ export default function Contact() {
                           alt="Creative marketing Agency"
                         />
                       </span>
-                      <a href="mailto:info@adventz.net">info@adventz.net</a>
+                      <Link href="mailto:info@adventz.net">
+                        info@adventz.net
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -183,13 +196,13 @@ export default function Contact() {
             <div className="row">
               <div className="col-12">
                 <div className="location-nav-cover">
-                  <a
+                  <Link
                     className="btn btn-location btn-shine"
                     href="https://goo.gl/maps/hj8hnUNtMm3q89Rm6"
                     target="_blank"
                   >
                     View Location
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

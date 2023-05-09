@@ -1,6 +1,20 @@
+import Head from 'next/head';
+import Link from 'next/link';
+
 export default function About() {
   return (
     <>
+      <Head>
+        <title>About Us | Advertising Company in Oman, Muscat | Adventz</title>
+        <meta
+          name="keywords"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
+        />
+        <meta
+          name="description"
+          content="Leading Media Agency in Oman. Professional Website Design and Social Media Marketing Company. Offering quality media services that meet your needs."
+        />
+      </Head>
       <section className="ins-banner-sec">
         <div className="container-xl">
           <div className="row">
@@ -94,7 +108,7 @@ export default function About() {
                 <div className="about-who-intro">
                   <p className="sub-hd">WHO WE ARE</p>
                   <h3>
-                    Adventz is a{" "}
+                    Adventz is a{' '}
                     <span className="color-red">design house;</span>
                     our products are creative, contemporary & artistic.
                   </h3>
@@ -188,9 +202,9 @@ export default function About() {
                     Over the last few years, our efforts have aided in the
                     achievement of significant milestones.
                   </p>
-                  <a className="btn btn-explore btn-shine" href="/">
+                  <Link className="btn btn-explore btn-shine" href="/">
                     Explore Services
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -229,7 +243,7 @@ export default function About() {
                 <div className="about-ppl-intro">
                   <p className="sub-hd">our people</p>
                   <h3>
-                    " Coming together is a beginning.{" "}
+                    " Coming together is a beginning.{' '}
                     <span className="color-red">
                       Keeping together is progress.
                     </span>

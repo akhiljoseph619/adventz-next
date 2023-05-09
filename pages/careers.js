@@ -1,9 +1,19 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import Head from 'next/head';
 
 export default function Careers() {
   return (
     <>
+      <Head>
+        <title>Work With Us At Adventz Agency | Careers In Oman</title>
+        <meta
+          name="keywords"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
+        />
+        <meta
+          name="description"
+          content="Adventz is a premier Digital Marketing Agency in Oman that specializes in strategizing your digital presence to scale your business. Let's Work Together."
+        />
+      </Head>
       <section className="ins-banner-sec">
         <div className="container-xl">
           <div className="row">

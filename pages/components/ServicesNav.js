@@ -24,7 +24,8 @@ export default function ServicesNav() {
             />
           </span>
           <span className="nav-label">
-            E-Commerce <br /> Services
+            E-Commerce
+            <br /> Services
           </span>
         </Link>
       </li>
@@ -46,7 +47,8 @@ export default function ServicesNav() {
             />
           </span>
           <span className="nav-label">
-            Branding <br /> Services
+            Branding
+            <br /> Services
           </span>
         </Link>
       </li>
@@ -68,7 +70,8 @@ export default function ServicesNav() {
             />
           </span>
           <span className="nav-label">
-            Website <br /> Services
+            Website
+            <br /> Services
           </span>
         </Link>
       </li>
@@ -90,7 +93,8 @@ export default function ServicesNav() {
             />
           </span>
           <span className="nav-label">
-            Marketing <br /> Services
+            Marketing
+            <br /> Services
           </span>
         </Link>
       </li>
@@ -112,7 +116,8 @@ export default function ServicesNav() {
             />
           </span>
           <span className="nav-label">
-            Mobile App <br /> Services
+            Mobile App
+            <br /> Services
           </span>
         </Link>
       </li>
