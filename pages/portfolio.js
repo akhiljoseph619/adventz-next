@@ -1,9 +1,21 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Portfolio() {
   return (
     <>
+      <Head>
+        <title>Our Portfolio | Digital Marketing Agency Oman</title>
+        <meta
+          name="keywords"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
+        />
+        <meta
+          name="description"
+          content="Leading Digital Marketing Agency in Oman. Professional Website Design and Marketing Company. Offering quality Media services that meet your needs. Explore more."
+        />
+      </Head>
+
       <section className="ins-banner-sec">
         <div className="container-xl">
           <div className="row">
@@ -1125,11 +1137,11 @@ export default function Portfolio() {
                       href="https://www.youtube.com/watch?v=udOytDQwRpM"
                       target="_blank"
                     >
-                      {" "}
+                      {' '}
                       <img
                         src="images/portfolio-video03.jpg"
                         alt="Adventz"
-                      />{" "}
+                      />{' '}
                     </a>
                   </figure>
                 </div>
@@ -1142,11 +1154,11 @@ export default function Portfolio() {
                       href="https://www.youtube.com/watch?v=dytQCzuL15c"
                       target="_blank"
                     >
-                      {" "}
+                      {' '}
                       <img
                         src="images/portfolio-video04.jpg"
                         alt="Adventz"
-                      />{" "}
+                      />{' '}
                     </a>
                   </figure>
                 </div>
@@ -1159,11 +1171,11 @@ export default function Portfolio() {
                       href="https://www.youtube.com/watch?v=CPo-L9fE5vc"
                       target="_blank"
                     >
-                      {" "}
+                      {' '}
                       <img
                         src="images/portfolio-video05.jpg"
                         alt="Adventz"
-                      />{" "}
+                      />{' '}
                     </a>
                   </figure>
                 </div>

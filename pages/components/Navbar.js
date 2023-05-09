@@ -82,9 +82,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/E-CommerceServices"
+                href="/E-Commerce-Services"
                 className={
-                  router.pathname == '/E-CommerceServices'
+                  router.pathname == '/E-Commerce-Services'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
@@ -94,9 +94,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/portfolio"
+                href="/Portfolio"
                 className={
-                  router.pathname == '/portfolio'
+                  router.pathname == '/Portfolio'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
