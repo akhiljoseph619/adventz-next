@@ -132,7 +132,7 @@ export default function navbarMain() {
                   router.pathname == '/Careers' ? 'active nav-link' : 'nav-link'
                 }
               >
-                <span className="nav-block">Careers</span>
+                <span className="nav-block">Career</span>
               </Link>
             </li>
             <li className="nav-item">
