@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 export default function Portfolio() {
   return (
@@ -89,64 +89,64 @@ export default function Portfolio() {
                   <h2>Latest Works</h2>
                 </div>
               </div>
-              <div className="col-12">
+              {/* <div className="col-12">
                 <ul className="portfolio-nav">
                   <li className="nav-item active">
-                    <a
+                    <Link
                       className="nav-link filter-button"
                       href="javascript:;"
                       data-filter="web"
                     >
                       Web
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link filter-button"
                       href="javascript:;"
                       data-filter="branding"
                     >
                       Branding
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link filter-button"
                       href="javascript:;"
                       data-filter="mobile"
                     >
                       Mobile Apps
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link filter-button"
                       href="javascript:;"
                       data-filter="videos"
                     >
                       Videos
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link filter-button"
                       href="javascript:;"
                       data-filter="other"
                     >
                       PR / Other Creatives
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link filter-button"
                       href="javascript:;"
                       data-filter="all"
                     >
                       All
-                    </a>
+                    </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -164,9 +164,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>GAC Motor Oman</p>
-                    <a href="https://gacmotoroman.com/" target="_blank">
+                    <Link href="https://gacmotoroman.com/" target="_blank">
                       www.gacmotoroman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -178,9 +178,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Royal Hospital Oman</p>
-                    <a href="https://royalhospital.med.om/" target="_blank">
+                    <Link href="https://royalhospital.med.om/" target="_blank">
                       www.royalhospital.med.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -192,9 +192,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Green Energy Oman</p>
-                    <a href="https://geo.om/" target="_blank">
+                    <Link href="https://geo.om/" target="_blank">
                       www.geo.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -206,9 +206,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Tanmia</p>
-                    <a href="https://www.tanmia.om/" target="_blank">
+                    <Link href="https://www.tanmia.om/" target="_blank">
                       www.tanmia.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -220,9 +220,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Best Choice Ceramics</p>
-                    <a href="https://bcc.om/" target="_blank">
+                    <Link href="https://bcc.om/" target="_blank">
                       www.bcc.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -267,9 +267,12 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Oman Banks Association</p>
-                    <a href="https://omanbanksassociation.com/" target="_blank">
+                    <Link
+                      href="https://omanbanksassociation.com/"
+                      target="_blank"
+                    >
                       www.omanbanksassociation.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -289,9 +292,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Oman Cement Company</p>
-                    <a href="https://occ.om/" target="_blank">
+                    <Link href="https://occ.om/" target="_blank">
                       www.occ.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -303,9 +306,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Oliban</p>
-                    <a href="https://oliban.om/" target="_blank">
+                    <Link href="https://oliban.om/" target="_blank">
                       www.oliban.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -350,9 +353,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Al Suwadi Power</p>
-                    <a href="https://alsuwadipower.com/" target="_blank">
+                    <Link href="https://alsuwadipower.com/" target="_blank">
                       www.alsuwadipower.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -364,9 +367,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>TMTEC</p>
-                    <a href="https://www.tmtecoman.com/" target="_blank">
+                    <Link href="https://www.tmtecoman.com/" target="_blank">
                       www.tmtecoman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -399,9 +402,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Sabco Oman</p>
-                    <a href="http://sabcooman.com/" target="_blank">
+                    <Link href="http://sabcooman.com/" target="_blank">
                       www.sabcooman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -413,9 +416,12 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Maysan Properties</p>
-                    <a href="https://www.maysanproperties.com/" target="_blank">
+                    <Link
+                      href="https://www.maysanproperties.com/"
+                      target="_blank"
+                    >
                       www.maysanproperties.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -438,9 +444,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Alkhonji Group</p>
-                    <a href="https://www.alkhonjigroup.com/" target="_blank">
+                    <Link href="https://www.alkhonjigroup.com/" target="_blank">
                       www.alkhonjigroup.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -602,9 +608,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>International Volunteers</p>
-                    <a href="https://ivoman.com/" target="_blank">
+                    <Link href="https://ivoman.com/" target="_blank">
                       www.ivoman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -616,9 +622,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Mustafa Sultan Enterprises LLC</p>
-                    <a href="https://www.mustafasultan.com/" target="_blank">
+                    <Link href="https://www.mustafasultan.com/" target="_blank">
                       www.mustafasultan.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -649,9 +655,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Educal</p>
-                    <a href="https://educal-int.com/" target="_blank">
+                    <Link href="https://educal-int.com/" target="_blank">
                       www.educal-int.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -666,12 +672,12 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>#ProudOmani</p>
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=QS-DfvrepI8"
                       target="_blank"
                     >
                       #ProudOmani #Nadhira Al Harthy
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -706,12 +712,12 @@ export default function Portfolio() {
                     <img src="images/portfolio-video02.jpg" alt="Adventz smo" />
                   </figure>
                   <figcaption>
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=JkSc-r7kD7U"
                       target="_blank"
                     >
                       <p>#OmanTraditionalCulture</p>
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -748,9 +754,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>MEDC Oman</p>
-                    <a href="https://medcoman.com/" target="_blank">
+                    <Link href="https://medcoman.com/" target="_blank">
                       www.medcoman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -784,9 +790,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Alhashargroup</p>
-                    <a href="http://alhashargroup.com/" target="_blank">
+                    <Link href="http://alhashargroup.com/" target="_blank">
                       www.alhashargroup.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -798,9 +804,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Hutchison Ports Sohar</p>
-                    <a href="https://www.oict.com.om/" target="_blank">
+                    <Link href="https://www.oict.com.om/" target="_blank">
                       www.oict.com.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -823,9 +829,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Omifco</p>
-                    <a href="http://www.omifco.com/" target="_blank">
+                    <Link href="http://www.omifco.com/" target="_blank">
                       www.omifco.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -859,9 +865,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Indianschool Sohar</p>
-                    <a href="https://indianschoolsohar.com/" target="_blank">
+                    <Link href="https://indianschoolsohar.com/" target="_blank">
                       www.indianschoolsohar.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -873,9 +879,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>mhd oman</p>
-                    <a href="http://www.mhdoman.com/" target="_blank">
+                    <Link href="http://www.mhdoman.com/" target="_blank">
                       www.mhdoman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -916,9 +922,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Oman Investment Authority</p>
-                    <a href="https://sgrf.gov.om/" target="_blank">
+                    <Link href="https://sgrf.gov.om/" target="_blank">
                       www.sgrf.gov.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -933,12 +939,12 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Towell Property</p>
-                    <a
+                    <Link
                       href="https://search.towellproperty.com/"
                       target="_blank"
                     >
                       www.search.towellproperty.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -950,9 +956,12 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Rezone Property</p>
-                    <a href="https://www.rezoneproperty.com/" target="_blank">
+                    <Link
+                      href="https://www.rezoneproperty.com/"
+                      target="_blank"
+                    >
                       www.rezoneproperty.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -987,9 +996,12 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Mumtalakat alkhonji Property</p>
-                    <a href="https://mumtalakat-alkhonji.com/" target="_blank">
+                    <Link
+                      href="https://mumtalakat-alkhonji.com/"
+                      target="_blank"
+                    >
                       www.mumtalakat-alkhonji.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -1015,9 +1027,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>National College of Automotive Technology</p>
-                    <a href="https://ncat.edu.om/" target="_blank">
+                    <Link href="https://ncat.edu.om/" target="_blank">
                       www.ncat.edu.om
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -1029,9 +1041,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Muscat Finance</p>
-                    <a href="https://mfcoman.com/" target="_blank">
+                    <Link href="https://mfcoman.com/" target="_blank">
                       www.mfcoman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -1054,9 +1066,9 @@ export default function Portfolio() {
                   </figure>
                   <figcaption>
                     <p>Oman Refreshment Company</p>
-                    <a href="https://pepsioman.com/" target="_blank">
+                    <Link href="https://pepsioman.com/" target="_blank">
                       www.pepsioman.com
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -1088,12 +1100,12 @@ export default function Portfolio() {
                     <img src="images/img-nationalday.jpg" alt="Adventz" />
                   </figure>
                   <figcaption>
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=ht6R8RKapck"
                       target="_blank"
                     >
                       <p>#49th#NationalDayCelebrations#Oman</p>
-                    </a>
+                    </Link>
                   </figcaption>
                 </div>
               </div>
@@ -1133,7 +1145,7 @@ export default function Portfolio() {
               <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter videos">
                 <div className="portfolio-item">
                   <figure>
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=udOytDQwRpM"
                       target="_blank"
                     >
@@ -1142,7 +1154,7 @@ export default function Portfolio() {
                         src="images/portfolio-video03.jpg"
                         alt="Adventz"
                       />{' '}
-                    </a>
+                    </Link>
                   </figure>
                 </div>
               </div>
@@ -1150,7 +1162,7 @@ export default function Portfolio() {
               <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter videos">
                 <div className="portfolio-item">
                   <figure>
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=dytQCzuL15c"
                       target="_blank"
                     >
@@ -1159,7 +1171,7 @@ export default function Portfolio() {
                         src="images/portfolio-video04.jpg"
                         alt="Adventz"
                       />{' '}
-                    </a>
+                    </Link>
                   </figure>
                 </div>
               </div>
@@ -1167,7 +1179,7 @@ export default function Portfolio() {
               <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter videos">
                 <div className="portfolio-item">
                   <figure>
-                    <a
+                    <Link
                       href="https://www.youtube.com/watch?v=CPo-L9fE5vc"
                       target="_blank"
                     >
@@ -1176,7 +1188,7 @@ export default function Portfolio() {
                         src="images/portfolio-video05.jpg"
                         alt="Adventz"
                       />{' '}
-                    </a>
+                    </Link>
                   </figure>
                 </div>
               </div>
