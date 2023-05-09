@@ -5034,7 +5034,7 @@ button:focus {
 
   h3 {
     color: var(--bk-grade-950);
-    font-size: 3.45rem;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 50px;
     margin: 0 0 2rem 0;
@@ -5154,7 +5154,7 @@ button:focus {
 
   h3 {
     color: var(--bk-grade-950);
-    font-size: 3.45rem;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 50px;
     margin: 0 0 2rem 0;
@@ -5192,39 +5192,37 @@ button:focus {
 
   .seo-cell {
     padding: 0 1rem;
-
     .seo-list {
       li {
         position: relative;
         font-size: 1.125rem;
         padding: 0 0 0 2.5rem;
-
         + li {
           margin-top: 0.5rem;
         }
-
         &::before {
           content: '';
           position: absolute;
           left: 0;
-          top: 0;
+          top: 8px;
           width: 20px;
           height: 15px;
           background-image: url(../public/images/tick-icon-red.png);
           background-repeat: no-repeat;
         }
-
         h4 {
           color: var(--bk-grade-450);
           font-size: 1.25rem;
           font-weight: 600;
           margin: 0;
         }
-
         p {
           color: var(--bk-grade-450);
           font-size: 1.125rem;
           margin: 0;
+        }
+        a {
+          color: var(--bk-grade-750);
         }
       }
     }
@@ -5241,7 +5239,6 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2.5rem;
-
   figure {
     position: relative;
     flex: 0 0 550px;
@@ -5249,7 +5246,6 @@ button:focus {
     margin: 0 5rem 0 0;
     border-radius: 1rem;
     overflow: hidden;
-
     img {
       width: 100%;
     }
@@ -5259,14 +5255,12 @@ button:focus {
     flex: 1 1 0;
     max-width: 675px;
     padding: 2.5rem 0 0 0;
-
     h3 {
       color: var(--bk-grade-950);
       font-size: 3rem;
       font-weight: 600;
       margin: 0 0 0.5rem 0;
     }
-
     p {
       color: var(--bk-grade-450);
       font-size: 1.125rem;
@@ -5283,7 +5277,6 @@ button:focus {
 .raff-system-hd {
   margin-bottom: 4rem;
   text-align: center;
-
   .sub-hd {
     color: var(--color-100);
     font-size: 1.25rem;

@@ -2,20 +2,18 @@ import Head from 'next/head';
 import Link from 'next/link';
 import ServicesNav from './components/ServicesNav';
 
-export default function BrandingServices() {
+export default function ECommerceServices() {
   return (
     <>
       <Head>
-        <title>
-          Branding Services in Oman | Digital Marketing and Designing
-        </title>
+        <title>Services | Ecommerce Services And Digital Marketing</title>
         <meta
           name="keywords"
-          content="Logo design oman,Comany profile design,Brand assessment in oman, Rebranding in oman, Concept creation in oman, Portfolio nomenclature in oman, Corporate Identity in oman, Social Networking Profile Page Branding in oman, Corporate presentations & Email template in oman"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
         />
         <meta
           name="description"
-          content="Adventz is a super-efficient, B2B & B2C Branding and Advertising Agency. Call Us! Advertising Agency specialized in B2B & B2C Branding based in Muscat."
+          content="Adventz focuses on delivering eCommerce development solutions in Oman designed to meet your Web Commerce needs impeccably. Your eCommerce Experts. Get In Touch"
         />
       </Head>
 
@@ -72,9 +70,11 @@ export default function BrandingServices() {
                 </div>
                 <div className="ins-banner-hd">
                   <h1>
-                    <span className="color-red">Branding Services In Oman</span>
+                    <span className="color-red">
+                      E-commerce Services In Oman
+                    </span>
                   </h1>
-                  <p>#CreativeAgency #Branding</p>
+                  <p>#E-commerceMarketing</p>
                 </div>
               </div>
             </div>
@@ -90,13 +90,13 @@ export default function BrandingServices() {
                 <div className="service-intro">
                   <p className="sub-hd">what we do</p>
                   <h3>
-                    We'll join up all the pieces required to provide your
-                    company with a consistent voice and visual identity
+                    For businesses, digital is personal, which is why we
+                    prioritize your business goals while developing a
+                    personalized solution for you.
                   </h3>
                   <p>
-                    We work seamlessly to translate brand insights into
-                    thoughtful, distinctive and compelling brand designs and
-                    copy that reflect your brand's essence.
+                    Get a feature-loaded & user-friendly e-commerce website for
+                    selling multiple products people need.
                   </p>
                 </div>
               </div>
@@ -116,26 +116,27 @@ export default function BrandingServices() {
                 <div className="service-item">
                   <figure>
                     <div className="service-img">
-                      <img src="images/service-bnd-img-01.jpg" alt="Service" />
+                      <img
+                        src="images/service-ecommerce-img-01.jpg"
+                        alt="Mobile App Services"
+                      />
                     </div>
                   </figure>
                   <figcaption>
                     <div className="service-icon">
                       <i>
                         <img
-                          src="images/service-bnd-icon-01.png"
-                          alt="Brand Identity"
+                          src="images/service-e_com-icon-01.png"
+                          alt="social media marketing-service"
                         />
                       </i>
                     </div>
-                    <h3>Brand Identity Design Service</h3>
+                    <h3>Coupon & Cart System</h3>
                     <p>
-                      Your Brand is Your Identity ! Your Brand is your Business
-                      ! <br /> <br /> We realize just how important your brand
-                      is to your reputation and therefore, your business. We
-                      create, protect and manage brand value through creative
-                      thinking and visually appealing expressions that transform
-                      organizations.
+                      Adventz helps to generate your free Coupons on the
+                      E-commerce theme. Coupons are a great way to offer
+                      discounts and rewards to your customers, and can help
+                      promote sales across through your web/mob platform.
                     </p>
                   </figcaption>
                 </div>
@@ -144,28 +145,27 @@ export default function BrandingServices() {
                 <div className="service-item">
                   <figure>
                     <div className="service-img">
-                      <img src="images/service-bnd-img-02.jpg" alt="Service" />
+                      <img
+                        src="images/service-ecommerce-img-02.jpg"
+                        alt="smo Service"
+                      />
                     </div>
                   </figure>
                   <figcaption>
                     <div className="service-icon">
                       <i>
                         <img
-                          src="images/service-bnd-icon-02.png"
-                          alt="branding-services"
+                          src="images/service-e_com-icon-02.png"
+                          alt="Icon"
                         />
                       </i>
                     </div>
-                    <h3>Custom Logo Design Services</h3>
+                    <h3>E-commerce Marketing</h3>
                     <p>
-                      Your logo is your signature. Be it a simple take on your
-                      time to a three-dimensional video, we have you covered.
-                      Striking themes, contemporary designs and intelligent
-                      content underline the sensory impact of your brand. But
-                      unless these are in line with your core values, your
-                      mission and your purpose, these are just fluff. We help
-                      you make sure that your identity is unique and is your
-                      own.
+                      The number of internet users is rising rapidly in the
+                      world & online sales are the perfect way to explore this
+                      potential market. Adventz offers a user-friendly platform
+                      interface for customers' needs.
                     </p>
                   </figcaption>
                 </div>
@@ -174,70 +174,32 @@ export default function BrandingServices() {
                 <div className="service-item">
                   <figure>
                     <div className="service-img">
-                      <img src="images/service-bnd-img-03.jpg" alt="Service" />
-                    </div>
-                  </figure>
-                  <figcaption>
-                    <div className="service-icon">
-                      <i>
-                        <img src="images/service-bnd-icon-03.png" alt="Icon" />
-                      </i>
-                    </div>
-                    <h3>Business Card Design Services</h3>
-                    <p>
-                      The marketing of your business can either break you or
-                      make you, Your business card is a key element for a
-                      powerful brand. We are creators of immense value to your
-                      business growth.
-                    </p>
-                  </figcaption>
-                </div>
-              </div>
-              <div className="col-12 col-md-6 px-2 px-lg-4">
-                <div className="service-item">
-                  <figure>
-                    <div className="service-img">
-                      <img src="images/service-bnd-img-04.jpg" alt="Service" />
-                    </div>
-                  </figure>
-                  <figcaption>
-                    <div className="service-icon">
-                      <i>
-                        <img src="images/service-bnd-icon-04.png" alt="Icon" />
-                      </i>
-                    </div>
-                    <h3>Marketing Collateral Design</h3>
-                    <p>
-                      The collateral of your brand is often the first impression
-                      of your product or service and first impressions really
-                      count. We offer the design to fit the core values and
-                      personality of your brand.
-                    </p>
-                  </figcaption>
-                </div>
-              </div>
-              <div className="col-12 col-md-6 px-2 px-lg-4">
-                <div className="service-item">
-                  <figure>
-                    <div className="service-img">
-                      <img src="images/service-bnd-img-05.jpg" alt="Service" />
+                      <img
+                        src="images/service-ecommerce-img-03.jpg"
+                        alt="google ads Service"
+                      />
                     </div>
                   </figure>
                   <figcaption>
                     <div className="service-icon">
                       <i>
                         <img
-                          src="images/service-bnd-icon-05.png"
-                          alt="Packaging Design"
+                          src="images/service-e_com-icon-03.png"
+                          alt="facebook marketing"
                         />
                       </i>
                     </div>
-                    <h3>Product Packaging Design</h3>
+                    <h3>Payment Gateway Integration</h3>
                     <p>
-                      They say do not judge the book by its cover, in the case
-                      of packaged goods and services, this is not the reality.
-                      We help you showcase your products in the most aesthetic,
-                      cost-effective packs with high recall value.
+                      We provide flexible e-commerce platforms with intelligent
+                      design, clear navigation & easy check out process,
+                      integrated with the utmost secure payment gateways that
+                      put you and your buyers at ease, increasing customer
+                      conversion & retention rates. Our associated services,
+                      including social media integration & online marketing
+                      tools, provide a wholesome solution, ensuring that the
+                      personality of your brand is reflected in every aspect of
+                      your e-commerce.
                     </p>
                   </figcaption>
                 </div>
@@ -246,26 +208,94 @@ export default function BrandingServices() {
                 <div className="service-item">
                   <figure>
                     <div className="service-img">
-                      <img src="images/service-bnd-img-06.jpg" alt="Service" />
+                      <img
+                        src="images/service-ecommerce-img-04.jpg"
+                        alt="facebook marketing Service"
+                      />
                     </div>
                   </figure>
                   <figcaption>
                     <div className="service-icon">
                       <i>
                         <img
-                          src="images/service-bnd-icon-06.png"
-                          alt="Packaging Design"
+                          src="images/service-e_com-icon-04.png"
+                          alt="social media marketing"
                         />
                       </i>
                     </div>
-                    <h3>Brand Style Guide Design</h3>
+                    <h3>Shipping API Integration</h3>
                     <p>
-                      Any process without a framework and ground rules become a
-                      messy playground. In order to protect the integrity of
-                      your brand, we help you develop a set of guiding
-                      principles for your brand voice and tone that will shine
-                      the path in any branding exercise with clarity &
-                      consistency.
+                      We are the top shipping API integration solution providers
+                      with long-standing experience of dealing with the most
+                      respected logistics and shipping firms from all across the
+                      globe. <br /> We provide highly industry-specific,
+                      customized, and scalable API integration services for
+                      websites and mobile apps through our skilled developer
+                      team.
+                    </p>
+                  </figcaption>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 px-2 px-lg-4">
+                <div className="service-item">
+                  <figure>
+                    <div className="service-img">
+                      <img
+                        src="images/service-ecommerce-img-05.jpg"
+                        alt="smo Service"
+                      />
+                    </div>
+                  </figure>
+                  <figcaption>
+                    <div className="service-icon">
+                      <i>
+                        <img
+                          src="images/service-e_com-icon-05.png"
+                          alt="smo marketing"
+                        />
+                      </i>
+                    </div>
+                    <h3>Business-to-Consumer</h3>
+                    <p>
+                      E-commerce websites that bring to life your idea for any
+                      online business. Whether your needs are simple or complex,
+                      our team, backed by the ingenious thinking & a strong hold
+                      on the current & most up-to date technologies, will work
+                      out solutions that are — Practical & user friendly,
+                      Efficient & consistent, Stable & scalable, Secure &
+                      reliable, Search engine optimized.
+                    </p>
+                  </figcaption>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 px-2 px-lg-4">
+                <div className="service-item">
+                  <figure>
+                    <div className="service-img">
+                      <img
+                        src="images/service-ecommerce-img-06.jpg"
+                        alt="Services"
+                      />
+                    </div>
+                  </figure>
+                  <figcaption>
+                    <div className="service-icon">
+                      <i>
+                        <img
+                          src="images/service-e_com-icon-06.png"
+                          alt="Affiliate marketing service"
+                        />
+                      </i>
+                    </div>
+                    <h3>Affiliates Programs</h3>
+                    <p>
+                      Affiliate marketing has grown in popularity over the last
+                      few years across the globe and is known to provide
+                      exceptional benefits to both advertisers and publishers.{' '}
+                      <br /> We're an affiliate marketing network that connects
+                      brands looking to promote their products and services with
+                      publishers looking for interesting and high-quality
+                      content.
                     </p>
                   </figcaption>
                 </div>
@@ -274,7 +304,10 @@ export default function BrandingServices() {
             <div className="row">
               <div className="col-12">
                 <div className="service-footer-nav">
-                  <Link className="btn btn-explore btn-shine" href="Branding">
+                  <Link
+                    className="btn btn-explore btn-shine"
+                    href="/E-Commerce"
+                  >
                     Explore more
                   </Link>
                 </div>

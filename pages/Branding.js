@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export default function EcommerceServices() {
+export default function Branding() {
   return (
     <>
       <Head>

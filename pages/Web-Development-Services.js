@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
-export default function EcommerceServices() {
+export default function WebDevelopmentServices() {
   return (
     <>
       <Head>
@@ -12,7 +11,7 @@ export default function EcommerceServices() {
         />
         <meta
           name="description"
-          content="An award-winning Web Design Company in Oman, specializing in Custom Website Design, Web Development, & Online Marketing. Website Development in Muscat"
+          content="An award-winning Web Design Company in Oman, specializing in Custom Website Design, Web Development, & Online Marketing. Website Development in Muscat"
         />
       </Head>
 
@@ -67,9 +66,9 @@ export default function EcommerceServices() {
                     </svg>
                   </div>
                 </div>
-                <div class="ins-banner-hd">
+                <div className="ins-banner-hd">
                   <h1>
-                    <span class="color-red">Website</span> Services
+                    <span className="color-red">Website</span> Services
                   </h1>
                   <p>#Creative Agency #Designing</p>
                 </div>
@@ -79,26 +78,26 @@ export default function EcommerceServices() {
         </div>
       </section>
 
-      <main class="ins-content-sec">
-        <section class="ins-website-sec">
-          <div class="container-xl">
-            <div class="row">
-              <div class="col-12 col-website-grphics">
-                <div class="website-grphics-cover">
-                  <div class="website-grphics">
+      <main className="ins-content-sec">
+        <section className="ins-website-sec">
+          <div className="container-xl">
+            <div className="row">
+              <div className="col-12 col-website-grphics">
+                <div className="website-grphics-cover">
+                  <div className="website-grphics">
                     <img
                       src="images/website-img.png"
                       alt="Creative Designing website"
                     />
                   </div>
-                  <div class="parallax-eff website-particle">
-                    <div class="particle particle-01">
+                  <div className="parallax-eff website-particle">
+                    <div className="particle particle-01">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
                         viewBox="0 0 45 45"
-                        class="particle-svg"
+                        className="particle-svg"
                       >
                         <polygon
                           points="29.8,22 40.4,32.6 33.4,39.7 22.8,29.1 12.1,39.7 5.1,32.6 15.7,22 5.1,11.4 12.1,4.3 
@@ -106,37 +105,37 @@ export default function EcommerceServices() {
                         />
                       </svg>
                     </div>
-                    <div class="particle particle-02">
+                    <div className="particle particle-02">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
                         viewBox="0 0 32 32"
-                        class="particle-svg"
+                        className="particle-svg"
                       >
                         <circle cx="16" cy="16" r="13.1" />
                       </svg>
                     </div>
                   </div>
-                  <div class="website-shape-cover">
-                    <div class="website-shape website-shape-01">
+                  <div className="website-shape-cover">
+                    <div className="website-shape website-shape-01">
                       <img
                         src="images/website-rec-shape.png"
                         alt="Creative Agency"
                       />
                     </div>
-                    <div class="website-shape website-shape-02">
-                      <div class="website-rect-shape"></div>
+                    <div className="website-shape website-shape-02">
+                      <div className="website-rect-shape"></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-website-con">
-                <div class="website-intro">
-                  <p class="sub-hd">our services</p>
+              <div className="col-12 col-website-con">
+                <div className="website-intro">
+                  <p className="sub-hd">our services</p>
                   <h3>
-                    Your <span class="color-red">website</span> is your online
-                    window to the outside world.
+                    Your <span className="color-red">website</span> is your
+                    online window to the outside world.
                   </h3>
                   <p>
                     We are Oman's premier web design and development company. We
@@ -149,11 +148,11 @@ export default function EcommerceServices() {
           </div>
         </section>
 
-        <section class="website-note-sec">
-          <div class="container-xl">
-            <div class="row">
-              <div class="col-12">
-                <div class="website-note">
+        <section className="website-note-sec">
+          <div className="container-xl">
+            <div className="row">
+              <div className="col-12">
+                <div className="website-note">
                   <h3>
                     Businesses require a site that can securely handle business
                     transactions, where every visitor is transformed into a
@@ -165,14 +164,14 @@ export default function EcommerceServices() {
           </div>
         </section>
 
-        <section class="website-item-sec">
-          <div class="container-xl">
-            <div class="row">
-              <div class="col-12">
-                <div class="website-item-cover">
-                  <div class="website-item">
+        <section className="website-item-sec">
+          <div className="container-xl">
+            <div className="row">
+              <div className="col-12">
+                <div className="website-item-cover">
+                  <div className="website-item">
                     <figure>
-                      <div class="website-img">
+                      <div className="website-img">
                         <img
                           src="images/website-item-06.jpg"
                           alt="creative website service"
@@ -190,9 +189,9 @@ export default function EcommerceServices() {
                       </p>
                     </figcaption>
                   </div>
-                  <div class="website-item">
+                  <div className="website-item">
                     <figure>
-                      <div class="website-img">
+                      <div className="website-img">
                         <img
                           src="images/website-item-01.jpg"
                           alt="Creative Designing website"
@@ -216,9 +215,9 @@ export default function EcommerceServices() {
                       </p>
                     </figcaption>
                   </div>
-                  <div class="website-item">
+                  <div className="website-item">
                     <figure>
-                      <div class="website-img">
+                      <div className="website-img">
                         <img
                           src="images/website-item-04.jpg"
                           alt="advanced website desings"
@@ -235,9 +234,9 @@ export default function EcommerceServices() {
                       </p>
                     </figcaption>
                   </div>
-                  <div class="website-item">
+                  <div className="website-item">
                     <figure>
-                      <div class="website-img">
+                      <div className="website-img">
                         <img
                           src="images/website-item-02.jpg"
                           alt="advanced website services"
@@ -253,9 +252,9 @@ export default function EcommerceServices() {
                       </p>
                     </figcaption>
                   </div>
-                  <div class="website-item">
+                  <div className="website-item">
                     <figure>
-                      <div class="website-img">
+                      <div className="website-img">
                         <img
                           src="images/website-item-05.jpg"
                           alt="Social Networking Solutions"
@@ -274,9 +273,9 @@ export default function EcommerceServices() {
                       </p>
                     </figcaption>
                   </div>
-                  <div class="website-item">
+                  <div className="website-item">
                     <figure>
-                      <div class="website-img">
+                      <div className="website-img">
                         <img
                           src="images/website-item-03.jpg"
                           alt="Website Hosting/Email Services"
@@ -301,25 +300,25 @@ export default function EcommerceServices() {
           </div>
         </section>
 
-        <section class="web-tech-sec">
-          <div class="container-xl">
-            <div class="row">
-              <div class="col-12 col-web-tech-grphics">
-                <div class="web-tech-grphics-cover">
-                  <div class="web-tech-grphics">
+        <section className="web-tech-sec">
+          <div className="container-xl">
+            <div className="row">
+              <div className="col-12 col-web-tech-grphics">
+                <div className="web-tech-grphics-cover">
+                  <div className="web-tech-grphics">
                     <img
                       src="images/web-tech-img.png"
                       alt="Website Maintenance "
                     />
                   </div>
-                  <div class="parallax-eff web-tech-particle">
-                    <div class="particle particle-01">
+                  <div className="parallax-eff web-tech-particle">
+                    <div className="particle particle-01">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
                         viewBox="0 0 45 45"
-                        class="particle-svg"
+                        className="particle-svg"
                       >
                         <polygon
                           points="29.8,22 40.4,32.6 33.4,39.7 22.8,29.1 12.1,39.7 5.1,32.6 15.7,22 5.1,11.4 12.1,4.3 
@@ -327,40 +326,40 @@ export default function EcommerceServices() {
                         />
                       </svg>
                     </div>
-                    <div class="particle particle-02">
+                    <div className="particle particle-02">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
                         viewBox="0 0 32 32"
-                        class="particle-svg"
+                        className="particle-svg"
                       >
                         <circle cx="16" cy="16" r="13.1" />
                       </svg>
                     </div>
                   </div>
-                  <div class="web-tech-shape-cover">
-                    <div class="web-tech-shape web-tech-shape-01">
+                  <div className="web-tech-shape-cover">
+                    <div className="web-tech-shape web-tech-shape-01">
                       <img
                         src="images/web-tech-rec-shape.png"
                         alt="Website Maintenance "
                       />
                     </div>
-                    <div class="web-tech-shape web-tech-shape-02">
-                      <div class="web-tech-rect-shape"></div>
+                    <div className="web-tech-shape web-tech-shape-02">
+                      <div className="web-tech-rect-shape"></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-web-tech-con">
-                <div class="web-tech-intro">
+              <div className="col-12 col-web-tech-con">
+                <div className="web-tech-intro">
                   <h3>Technologies & Tools we use</h3>
                   <p>
                     When it comes to crafting magic through a website or app,
                     you need the best. However, your website has to have a
                     distinct appeal and should resonate well with your audience.
                   </p>
-                  <div class="web-tech-logos">
+                  <div className="web-tech-logos">
                     <img
                       src="images/web-tech-logos.jpg"
                       alt="Website Maintenance services"

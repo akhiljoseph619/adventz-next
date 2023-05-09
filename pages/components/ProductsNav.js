@@ -9,11 +9,11 @@ export default function ProductssNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/ERaffleProducts'
+            router.pathname == '/E-Raffle-Products'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/ERaffleProducts#productsNav"
+          href="/E-Raffle-Products#productsNav"
         >
           <span class="nav-icon">
             <img src="images/pro-nav-01.png" alt="e-commerce website" />
@@ -31,11 +31,11 @@ export default function ProductssNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/AlertMonitoringSystem'
+            router.pathname == '/Alert-Monitoring-System'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/AlertMonitoringSystem#productsNav"
+          href="/Alert-Monitoring-System#productsNav"
         >
           <span class="nav-icon">
             <img src="images/pro-nav-02.png" alt="E-Commerce Services" />

@@ -60,9 +60,9 @@ export default function navbarMain() {
           <ul className="navbar-nav main-nav">
             <li className="nav-item">
               <Link
-                href="/about"
+                href="/About"
                 className={
-                  router.pathname == '/about' ? 'active nav-link' : 'nav-link'
+                  router.pathname == '/About' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">About Us</span>
@@ -70,9 +70,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/ERaffleProducts"
+                href="/E-Raffle-Products"
                 className={
-                  router.pathname == '/ERaffleProducts'
+                  router.pathname == '/E-Raffle-Products'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
@@ -115,9 +115,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/achievement"
+                href="/Achievement"
                 className={
-                  router.pathname == '/achievement'
+                  router.pathname == '/Achievement'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
@@ -127,9 +127,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/careers"
+                href="/Careers"
                 className={
-                  router.pathname == '/careers' ? 'active nav-link' : 'nav-link'
+                  router.pathname == '/Careers' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">Careers</span>
@@ -137,9 +137,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/contact"
+                href="/Contact"
                 className={
-                  router.pathname == '/contact' ? 'active nav-link' : 'nav-link'
+                  router.pathname == '/Contact' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">Contact</span>

@@ -1,17 +1,17 @@
 import Head from 'next/head';
 
-export default function Achievement() {
+export default function OnlineMarketingCompanyOman() {
   return (
     <>
       <Head>
-        <title>Our Achievements | Digital Marketing Company, Adventz</title>
+        <title>Online Marketing Company In Oman, Muscat | Adventz</title>
         <meta
           name="keywords"
-          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
+          content="Search Engine Optimization , seo oman, Banner Advertisement in oman, Social Media Marketing in oman, E-mail Marketing in oman"
         />
         <meta
           name="description"
-          content="Leading Media Agency in Oman. Advertising and Social Media Marketing Company. Offering quality media services that meet your needs. Explore our Achievements"
+          content="Make your brand thrive Online with Innovative Digital Campaigns from Adventz, an award winning Online Marketing Agency. Explore our services today!"
         />
       </Head>
 
@@ -68,9 +68,11 @@ export default function Achievement() {
                 </div>
                 <div className="ins-banner-hd">
                   <h1>
-                    <span className="color-red">Our</span> Achievement
+                    <span className="color-red">
+                      Online Marketing Company Oman{' '}
+                    </span>
                   </h1>
-                  <p>#CreativeAgency #Designing</p>
+                  <p>#OmanSME #onlineMarketing</p>
                 </div>
               </div>
             </div>
@@ -79,73 +81,36 @@ export default function Achievement() {
       </section>
 
       <main className="ins-content-sec">
-        <section className="blog-intro-sec">
+        <section className="seo-con-sec">
           <div className="container-xl">
             <div className="row">
               <div className="col-12">
-                <div className="blog-intro">
-                  <p className="sub-hd">
-                    We're proud of our awards and our team behind achieving them
-                  </p>
+                <div className="seo-con-cover">
+                  <p className="sub-hd">Online Marketing Company Oman</p>
                   <h3>
-                    Our accomplishments are a testament to
                     <span className="color-red">
-                      our hard work and dedication
-                    </span>
+                      ONLINE MARKETING SIMPLIFIED
+                    </span>{' '}
+                    grow stronger with Online Marketing Company Oman
                   </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="ins-service-sec">
-          <div className="container-xl">
-            <div className="row mx-n2 mx-lg-n2">
-              <div className="col-12 col-sm-6 col-md-4 px-2 px-lg-3">
-                <div className="blog-item">
-                  <figure>
-                    <img src="images/award01.jpg" alt="Google Partner oman" />
-                  </figure>
-                  <figcaption>
-                    <div className="blog-item-body">
-                      <h3>Google Partner Badge 2021</h3>
-                    </div>
-                  </figcaption>
-                </div>
-              </div>
-              <div className="col-12 col-sm-6 col-md-4 px-2 px-lg-3">
-                <div className="blog-item">
-                  <figure>
-                    <img
-                      src="images/award02.jpg"
-                      alt="Digital Marketing Service"
-                    />
-                  </figure>
-                  <figcaption>
-                    <div className="blog-item-body">
-                      <h3>
-                        'Digital Marketing Service Provider Customer
-                        Satisfaction & Happiness Oman 2020' at the Global
-                        Banking & Finance Award 2020
-                      </h3>
-                    </div>
-                  </figcaption>
-                </div>
-              </div>
-              <div className="col-12 col-sm-6 col-md-4 px-2 px-lg-3">
-                <div className="blog-item">
-                  <figure>
-                    <img src="images/award03.jpg" alt="Web Design oman" />
-                  </figure>
-                  <figcaption>
-                    <div className="blog-item-body">
-                      <h3>
-                        Best Web Design Gold Award in the category Advertising &
-                        Media 2016
-                      </h3>
-                    </div>
-                  </figcaption>
+                  <p>
+                    our products are creative, contemporary &amp; artistic.
+                    Nevertheless, we achieve these visual treats using old
+                    fashioned ideas: sense &amp; sensibility, customer
+                    interaction &amp; most importantly, scientific analyses
+                    &amp; dissection.
+                  </p>
+                  <p>
+                    In fact, our USP is our systematic and methodical work
+                    process. We approach each of our projects with logic,
+                    clearly defining at the outset our strategies of execution
+                    and the various stages involved. While we retain a certain
+                    degree of freedom in our aesthetics, our deep interaction
+                    and complementary relationships with our clients ensures
+                    clarity &amp; mutual understanding. This is after various
+                    rounds of internal quality assurance reviews at every level
+                    of the process.
+                  </p>
                 </div>
               </div>
             </div>

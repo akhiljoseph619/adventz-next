@@ -23,69 +23,65 @@ export default function Footer() {
                 <Marquee pauseOnHover="true">
                   <ul className="scroll-list">
                     <li>
-                      <Link href="web-design-oman.php">Oman Web Design</Link>
+                      <Link href="/Web-Design-Oman">Oman Web Design</Link>
                     </li>
                     <li>
-                      <Link href="web-development-services.php">
+                      <Link href="/Web-Development-Services">
                         Oman Web Development
                       </Link>
                     </li>
                     <li>
-                      <Link href="responsive-web-design.php">
+                      <Link href="/Responsive-Web-Design">
                         Responsive web design
                       </Link>
                     </li>
                     <li>
-                      <Link href="cms-web-design.php">Cms web design</Link>
+                      <Link href="/CMS-Web-Design">Cms web design</Link>
                     </li>
                     <li>
-                      <Link href="php8-mysql-programming.php">
+                      <Link href="/PHP8-MySQL-Programming">
                         PHP 8 &amp; Mysql programming
                       </Link>
                     </li>
                     <li>
-                      <Link href="website-redesign.php">Website re-design</Link>
+                      <Link href="/Website-Redesign">Website re-design</Link>
                     </li>
                     <li>
-                      <Link href="custom-cms-web-design.php">
+                      <Link href="/Custom-CMS-Web-Design">
                         Custom cms web design
                       </Link>
                     </li>
                     <li>
-                      <Link href="html5-css3-web-designing.php">
+                      <Link href="/HTML5-CSS3-Web-Designing">
                         HTML 5 &amp; CSS3 web designing
                       </Link>
                     </li>
                     <li>
-                      <Link href="advertising-oman.php">Advertising Oman</Link>
+                      <Link href="/Advertising-Oman">Advertising Oman</Link>
                     </li>
                     <li>
-                      <Link href="best-web-design-company-in-oman.php">
+                      <Link href="/Best-Web-Design-Company-in-Oman">
                         Best web design company in oman
                       </Link>
                     </li>
                     <li>
-                      <Link href="web-design-in-oman.php">
-                        Web design in oman
-                      </Link>
+                      <Link href="/Web-Design-in-Oman">Web design in oman</Link>
                     </li>
                     <li>
-                      <Link href="e-commerce-website-oman.php">
+                      <Link href="/E-Commerce-Website-Oman">
                         E-commerce website oman
                       </Link>
                     </li>
                     <li>
-                      <Link href="online-marketing-company-oman.php">
+                      <Link href="/Online-Marketing-Company-Oman">
                         Online Marketing Company Oman
                       </Link>
                     </li>
                     <li>
-                      <Link href="seo-in-oman.php">SEO in Oman</Link>
+                      <Link href="/SEO-in-Oman">SEO in Oman</Link>
                     </li>
                     <li>
-                      <Link href="seo-services-oman.php">
-                        SEO Services Oman
-                      </Link>
+                      <Link href="/SEO-Services-Oman">SEO Services Oman</Link>
                     </li>
                   </ul>
                 </Marquee>

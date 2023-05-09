@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function EcommerceServices() {
+export default function ECommerce() {
   return (
     <>
       <Head>

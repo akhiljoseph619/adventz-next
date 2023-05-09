@@ -9,11 +9,11 @@ export default function ServicesNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/E-CommerceServices'
+            router.pathname == '/E-Commerce-Services'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/E-CommerceServices#serviceNav"
+          href="/E-Commerce-Services#serviceNav"
         >
           <span className="nav-icon">
             <img src="images/service-nav-04.png" alt="e-commerce website" />
@@ -31,11 +31,11 @@ export default function ServicesNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/BrandingServices'
+            router.pathname == '/Branding-Services'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/BrandingServices#serviceNav"
+          href="/Branding-Services#serviceNav"
         >
           <span className="nav-icon">
             <img src="images/service-nav-02.png" alt="E-Commerce Services" />
@@ -53,11 +53,11 @@ export default function ServicesNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/WebsiteServices'
+            router.pathname == '/Website-Services'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/WebsiteServices#serviceNav"
+          href="/Website-Services#serviceNav"
         >
           <span className="nav-icon">
             <img src="images/service-nav-03.png" alt="Branding Service oman" />
@@ -75,11 +75,11 @@ export default function ServicesNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/MarketingServices'
+            router.pathname == '/Marketing-Services'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/MarketingServices#serviceNav"
+          href="/Marketing-Services#serviceNav"
         >
           <span className="nav-icon">
             <img src="images/service-nav-01.png" alt="marketing-services" />
@@ -97,11 +97,11 @@ export default function ServicesNav() {
       <li className="nav-item">
         <Link
           className={
-            router.pathname == '/MobileAppServices'
+            router.pathname == '/Mobile-App-Services'
               ? 'active nav-link'
               : 'nav-link'
           }
-          href="/MobileAppServices#serviceNav"
+          href="/Mobile-App-Services#serviceNav"
         >
           <span className="nav-icon">
             <img src="images/service-nav-05.png" alt="digital Marketing" />

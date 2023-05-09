@@ -49,8 +49,8 @@ export default function GroupCompanySlider() {
             <div className="groups-carousel">
               <OwlCarousel
                 className="owl-theme"
-                nav={true}
-                dots={false}
+                nav={false}
+                dots={true}
                 navText={false}
                 responsive={comResponsive}
               >

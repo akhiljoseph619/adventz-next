@@ -95,7 +95,7 @@ const CounterUpPage = () => {
                   <figcaption>
                     <h3>
                       <span className="counter-value" data-count="70">
-                        0
+                        70
                       </span>
                       <sup>+</sup>
                     </h3>
