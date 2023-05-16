@@ -9,6 +9,16 @@ export default function PortfoliosNav() {
       <li className="nav-item">
         <Link
           className={
+            router.pathname == '/portfolio' ? 'active nav-link' : 'nav-link'
+          }
+          href="/portfolio#portfolio-Nav"
+        >
+          All
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          className={
             router.pathname == '/portfolio-web' ? 'active nav-link' : 'nav-link'
           }
           href="/portfolio-web#portfolio-Nav"
@@ -62,16 +72,6 @@ export default function PortfoliosNav() {
           href="/portfolio-other#portfolio-Nav"
         >
           PR / Other Creatives
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          className={
-            router.pathname == '/portfolio' ? 'active nav-link' : 'nav-link'
-          }
-          href="/portfolio#portfolio-Nav"
-        >
-          All
         </Link>
       </li>
     </ul>

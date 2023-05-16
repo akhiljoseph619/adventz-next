@@ -1,12 +1,24 @@
 import Head from 'next/head';
-import Navbar from './components/Navbar';
-import GroupCompanies from './components/GroupCompanies';
-import Footer from './components/Footer';
+import { useRouter } from 'next/router';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '@/styles/style.scss';
+import PreLoader from './components/PreLoader';
+import Navbar from './components/Navbar';
+import GroupCompanies from './components/GroupCompanies';
+import Footer from './components/Footer';
 
 export default function App({ Component, pageProps }) {
+  // Preloader
+  const router = useRouter();
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+  });
+
   return (
     <>
       <Head>
@@ -21,10 +33,17 @@ export default function App({ Component, pageProps }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Component {...pageProps} />
-      <GroupCompanies />
-      <Footer />
+
+      {isLoading ? (
+        <PreLoader />
+      ) : (
+        <>
+          <Navbar />
+          <Component {...pageProps} />
+          <GroupCompanies />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
