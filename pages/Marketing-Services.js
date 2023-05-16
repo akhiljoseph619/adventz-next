@@ -258,12 +258,15 @@ export default function MarketingServices() {
                         />
                       </i>
                     </div>
-                    <h3>E-mail Marketing</h3>
+                    <h3>Public Relations</h3>
                     <p>
-                      With strategic management, turn every communication, every
-                      email & newsletter into an effective marketing tool that
-                      assures higher open & response rates and reduced spam
-                      reports.
+                      As a significant element of any communication & marketing
+                      strategy, Public Relations (PR) helps organizations of all
+                      sizes to create a positive market presence by building a
+                      strong brand reputation, gaining control of the public
+                      image, enhancing brand presence in both offline and online
+                      media fronts, and connecting better with the target
+                      audience.
                     </p>
                   </figcaption>
                 </div>

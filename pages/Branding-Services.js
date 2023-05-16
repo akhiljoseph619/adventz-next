@@ -274,7 +274,7 @@ export default function BrandingServices() {
             <div className="row">
               <div className="col-12">
                 <div className="service-footer-nav">
-                  <Link className="btn btn-explore btn-shine" href="/Branding">
+                  <Link className="btn btn-explore btn-shine" href="/branding">
                     Explore more
                   </Link>
                 </div>

@@ -215,15 +215,15 @@ export default function WebDesignOman() {
                   <div className="seo-cell">
                     <ul className="seo-list">
                       <li>
-                        <Link href="/Responsive-Web-Design">
+                        <Link href="/responsive-web-design">
                           Responsive web design
                         </Link>
                       </li>
                       <li>
-                        <Link href="/CMS-Web-Design">Cms web design</Link>
+                        <Link href="/cms-web-design">Cms web design</Link>
                       </li>
                       <li>
-                        <Link href="/PHP8-MySQL-Programming">
+                        <Link href="/php8-mysql-programming">
                           PHP 8 & Mysql programming
                         </Link>
                       </li>
@@ -235,15 +235,15 @@ export default function WebDesignOman() {
                   <div className="seo-cell">
                     <ul className="seo-list">
                       <li>
-                        <Link href="/Website-Redesign">Website re-design</Link>
+                        <Link href="/website-redesign">Website re-design</Link>
                       </li>
                       <li>
-                        <Link href="/Custom-CMS-Web-Design">
+                        <Link href="/custom-cms-web-design">
                           Custom cms web design
                         </Link>
                       </li>
                       <li>
-                        <Link href="/HTML5-CSS3-Web-Designing">
+                        <Link href="/html5-css3-web-designing">
                           HTML 5 & CSS3 web designing
                         </Link>
                       </li>

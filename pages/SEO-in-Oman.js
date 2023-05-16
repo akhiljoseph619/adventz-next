@@ -176,9 +176,9 @@ export default function SEOinOman() {
                   <p>
                     In short, if you're looking for a reliable and experienced
                     SEO company in Oman, you've come to the right place.{' '}
-                    <Link href="/contact">Contact us</Link> today to learn more
-                    about our services and how we can help take your business to
-                    the next level.{' '}
+                    <Link href="/contact-us">Contact us</Link> today to learn
+                    more about our services and how we can help take your
+                    business to the next level.{' '}
                   </p>
                 </div>
               </div>

@@ -60,9 +60,9 @@ export default function navbarMain() {
           <ul className="navbar-nav main-nav">
             <li className="nav-item">
               <Link
-                href="/About"
+                href="/about"
                 className={
-                  router.pathname == '/About' ? 'active nav-link' : 'nav-link'
+                  router.pathname == '/about' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">About Us</span>
@@ -82,9 +82,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/E-Commerce-Services"
+                href="/E-commerce-services"
                 className={
-                  router.pathname == '/E-Commerce-Services'
+                  router.pathname == '/E-commerce-services'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
@@ -94,9 +94,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/Portfolio"
+                href="/portfolio"
                 className={
-                  router.pathname == '/Portfolio'
+                  router.pathname == '/portfolio'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
@@ -115,9 +115,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/Achievement"
+                href="/achievement"
                 className={
-                  router.pathname == '/Achievement'
+                  router.pathname == '/achievement'
                     ? 'active nav-link'
                     : 'nav-link'
                 }
@@ -127,9 +127,9 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/Careers"
+                href="/careers"
                 className={
-                  router.pathname == '/Careers' ? 'active nav-link' : 'nav-link'
+                  router.pathname == '/careers' ? 'active nav-link' : 'nav-link'
                 }
               >
                 <span className="nav-block">Careers</span>
@@ -137,9 +137,11 @@ export default function navbarMain() {
             </li>
             <li className="nav-item">
               <Link
-                href="/Contact"
+                href="/contact-us"
                 className={
-                  router.pathname == '/Contact' ? 'active nav-link' : 'nav-link'
+                  router.pathname == '/contact-us'
+                    ? 'active nav-link'
+                    : 'nav-link'
                 }
               >
                 <span className="nav-block">Contact</span>

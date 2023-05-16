@@ -306,7 +306,7 @@ export default function ECommerceServices() {
                 <div className="service-footer-nav">
                   <Link
                     className="btn btn-explore btn-shine"
-                    href="/E-Commerce"
+                    href="/e-commerce"
                   >
                     Explore more
                   </Link>
