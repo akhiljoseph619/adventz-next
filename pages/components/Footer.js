@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Marquee from 'react-fast-marquee';
 import { Container, Row, Col } from 'react-bootstrap';
-
 import {
   Facebook,
   Instagram,
@@ -10,6 +9,7 @@ import {
   Twitter,
   Youtube,
 } from 'react-bootstrap-icons';
+import ScrollToTopButton from './ScrollToTopButton';
 
 export default function Footer() {
   const router = useRouter();
@@ -429,6 +429,8 @@ export default function Footer() {
           </Row>
         </Container>
       </section>
+
+      <ScrollToTopButton />
     </>
   );
 }

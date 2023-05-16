@@ -1,13 +1,28 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-
+import { useState, useEffect } from 'react';
 import { Container, Navbar } from 'react-bootstrap';
 
 export default function navbarMain() {
+  const [stickyClass, setStickyClass] = useState('');
+
+  useEffect(() => {
+    window.addEventListener('scroll', stickNavbar);
+    return () => window.removeEventListener('scroll', stickNavbar);
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      // window height changed for the demo
+      windowHeight > 100 ? setStickyClass('navbar-fixed') : setStickyClass('');
+    }
+  };
+
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
-    <Navbar bg="light" expand="lg" className="navbar-main">
+    <Navbar bg="light" expand="lg" className={`navbar-main ${stickyClass}`}>
       <Container fluid>
         <div className="logo">
           <Link href="/">

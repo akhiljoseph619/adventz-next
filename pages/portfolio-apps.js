@@ -1,17 +1,19 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import PortfoliosNav from './components/PortfolioNav';
 
-export default function SEOServicesOman() {
+export default function Portfolio() {
   return (
     <>
       <Head>
-        <title>Search Engine Optimization | SEO Company Oman, Muscat</title>
+        <title>Our Portfolio | Digital Marketing Agency Oman</title>
         <meta
           name="keywords"
-          content="SEO services  oman, SEO services in oman, seo in oman, search engine optimisation oman,seo benefits,seo process, seo first position"
+          content="web design companies oman, Social media promotions Oman, web design muscat Oman, software development company Oman, website design services Oman, website design Oman,web design in oman"
         />
         <meta
           name="description"
-          content="Oman Based SEO Marketing Agency. 100% Transparency. Improving Your Online Visibility, Increasing Engagement, & Driving More Conversions. Get In Touch Today!"
+          content="Leading Digital Marketing Agency in Oman. Professional Website Design and Marketing Company. Offering quality Media services that meet your needs. Explore more."
         />
       </Head>
 
@@ -66,11 +68,11 @@ export default function SEOServicesOman() {
                     </svg>
                   </div>
                 </div>
-                <div class="ins-banner-hd">
+                <div className="ins-banner-hd">
                   <h1>
-                    <span class="color-red">PR Services In Oman</span>
+                    <span className="color-red">Our</span> Portfolio
                   </h1>
-                  <p>#PR #PublicRelations #PRServices</p>
+                  <p>#CreativeAgency #LogoDesign</p>
                 </div>
               </div>
             </div>
@@ -78,39 +80,58 @@ export default function SEOServicesOman() {
         </div>
       </section>
 
-      <main class="ins-content-sec">
-        <section class="seo-con-sec">
-          <div class="container-xl">
-            <div class="row">
-              <div class="col-12">
-                <div class="seo-con-cover">
-                  <p class="sub-hd">PUBLIC RELATIONS</p>
-                  <h3>
-                    <span class="color-red">PR SOLUTIONS</span> THAT ENGAGE,
-                    INSPIRE AND MAKE YOU THINK
-                  </h3>
-                  <p>
-                    As a significant element of any communication & marketing
-                    strategy, Public Relations (PR) helps organizations of all
-                    sizes to create a positive market presence by building a
-                    strong brand reputation, gaining control of the public
-                    image, enhancing brand presence in both offline and online
-                    media fronts, and connecting better with the target
-                    audience.
-                  </p>
-                  <p>
-                    By taking a multi-pronged approach to PR, we can well
-                    deliver and communicate your key messages that resonate with
-                    your audience while reaching as many offline and online
-                    media outlets and readers as possible. With our solid media
-                    relations, we offer customized communication strategies for
-                    brands across multi-industries. At Adventz, our media
-                    expertise helps clients of diverse sectors to achieve
-                    business goals and reach new heights through developing
-                    bilingual editorial content: press releases, featured
-                    articles & OpED, digital PR, and media pitches and
-                    interviews.
-                  </p>
+      <main className="ins-content-sec">
+        <section className="portfolio-nav-sec">
+          <div className="container-xl">
+            <div className="row">
+              <div className="col-12">
+                <div id="portfolio-Nav" className="portfolio-hd">
+                  <p>Featured projects</p>
+                  <h2>Latest Works</h2>
+                </div>
+              </div>
+              <div className="col-12">
+                <PortfoliosNav />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="portfolio-body-sec">
+          <div className="container-fluid px-1  px-lg-2 px-xl-3">
+            <div className="row mx-n1 mx-lg-2 mx-xl-n3">
+              <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter mobile">
+                <div className="portfolio-item">
+                  <figure>
+                    <img
+                      src="images/mobile-app3.jpg"
+                      alt="Adventz web hosting"
+                    />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter mobile">
+                <div className="portfolio-item">
+                  <figure>
+                    <img src="images/mobile-app2.jpg" alt="Adventz" />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter mobile">
+                <div className="portfolio-item">
+                  <figure>
+                    <img src="images/portfolio-mob-app04.jpg" alt="Adventz" />
+                  </figure>
+                </div>
+              </div>
+
+              <div className="col-6 col-sm-6 col-md-3 px-1 px-lg-2 px-xl-3 filter mobile">
+                <div className="portfolio-item">
+                  <figure>
+                    <img src="images/mobile-app4.jpg" alt="Adventz" />
+                  </figure>
                 </div>
               </div>
             </div>

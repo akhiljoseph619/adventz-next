@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import PortfoliosNav from './components/PortfolioNav';
 
 export default function Portfolio() {
   return (
@@ -84,69 +85,14 @@ export default function Portfolio() {
           <div className="container-xl">
             <div className="row">
               <div className="col-12">
-                <div className="portfolio-hd">
+                <div id="portfolio-Nav" className="portfolio-hd">
                   <p>Featured projects</p>
                   <h2>Latest Works</h2>
                 </div>
               </div>
-              {/* <div className="col-12">
-                <ul className="portfolio-nav">
-                  <li className="nav-item active">
-                    <Link
-                      className="nav-link filter-button"
-                      href="javascript:;"
-                      data-filter="web"
-                    >
-                      Web
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link filter-button"
-                      href="javascript:;"
-                      data-filter="branding"
-                    >
-                      Branding
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link filter-button"
-                      href="javascript:;"
-                      data-filter="mobile"
-                    >
-                      Mobile Apps
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link filter-button"
-                      href="javascript:;"
-                      data-filter="videos"
-                    >
-                      Videos
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link filter-button"
-                      href="javascript:;"
-                      data-filter="other"
-                    >
-                      PR / Other Creatives
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link filter-button"
-                      href="javascript:;"
-                      data-filter="all"
-                    >
-                      All
-                    </Link>
-                  </li>
-                </ul>
-              </div> */}
+              <div className="col-12">
+                <PortfoliosNav />
+              </div>
             </div>
           </div>
         </section>
