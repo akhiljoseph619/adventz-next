@@ -64,10 +64,7 @@ export default function navbarMain() {
             </li>
 
             <li className="nav-item nav-lng-item">
-              <Link
-                className="nav-link nav-lng active-lng"
-                href="https://www.adventz.net/ar/index.php"
-              >
+              <Link className="nav-link nav-lng active-lng" href="">
                 عربى
               </Link>
             </li>

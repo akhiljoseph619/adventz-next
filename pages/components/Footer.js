@@ -388,7 +388,7 @@ export default function Footer() {
           <Row>
             <Col xs={12}>
               <div className="footer-search">
-                <form action="search-results.php">
+                <form action="/search-results">
                   <div className="input-group">
                     <input type="search" className="form-control" name="q" />
                     <div type="search" className="input-group-append">
@@ -422,7 +422,7 @@ export default function Footer() {
             <Col xs={12} md={6}>
               <ul className="bottom-links">
                 <li>
-                  <Link href="privacy-policy.php">Privacy Policy</Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
               </ul>
             </Col>

@@ -2464,6 +2464,18 @@
   .seo-list-cover {
     margin-bottom: 1rem;
   }
+  .error-page {
+    margin: 30% 0 10%;
+  }
+  .error-page .error-hd h1 {
+    font-size: 8rem;
+  }
+  .error-page .error-txt {
+    font-size: 1rem;
+  }
+  .error-page .error-body p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 480px) {

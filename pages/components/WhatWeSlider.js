@@ -71,7 +71,7 @@ export default function WhatWeSlider() {
             <div className="what-we-footer">
               <a
                 className="btn btn-explore btn-shine"
-                href="E-commerce-services.php"
+                href="/E-commerce-services"
               >
                 Explore E-Commerce Services
               </a>
@@ -105,7 +105,7 @@ export default function WhatWeSlider() {
             <div className="what-we-footer">
               <a
                 className="btn btn-explore btn-shine"
-                href="branding-services.php"
+                href="/branding-services"
               >
                 Explore Branding Services
               </a>
@@ -139,10 +139,7 @@ export default function WhatWeSlider() {
               </div>
             </figcaption>
             <div className="what-we-footer">
-              <a
-                className="btn btn-explore btn-shine"
-                href="website-services.php"
-              >
+              <a className="btn btn-explore btn-shine" href="/website-services">
                 Explore Website Services
               </a>
             </div>
@@ -175,7 +172,7 @@ export default function WhatWeSlider() {
             <div className="what-we-footer">
               <a
                 className="btn btn-explore btn-shine"
-                href="marketing-services.php"
+                href="/marketing-services"
               >
                 Explore Marketing Services
               </a>
@@ -209,7 +206,7 @@ export default function WhatWeSlider() {
             <div className="what-we-footer">
               <a
                 className="btn btn-explore btn-shine"
-                href="mobile-app-services.php"
+                href="/mobile-app-services"
               >
                 Explore Mobile App Services
               </a>
@@ -246,7 +243,7 @@ export default function WhatWeSlider() {
             <div className="what-we-footer">
               <a
                 className="btn btn-explore btn-shine"
-                href="E-commerce-services.php"
+                href="/E-commerce-services"
               >
                 Explore E-Commerce Services
               </a>

@@ -5557,3 +5557,56 @@ button:focus {
     }
   }
 }
+
+.error-page {
+  margin: 10% 0;
+  .error-hd {
+    position: relative;
+    max-width: 450px;
+    margin: 0 auto 0.5rem;
+    text-align: center;
+    h1 {
+      color: var(--color-100);
+      font-size: 10rem;
+      font-weight: 600;
+      margin: 0;
+      line-height: 100%;
+    }
+  }
+  .error-txt {
+    position: absolute;
+    left: 0;
+    top: 55%;
+    width: 100%;
+    color: var(--bk-grade-900);
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    white-space: nowrap;
+    background-color: var(--white);
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .error-body {
+    margin-bottom: 1rem;
+    text-align: center;
+    p {
+      color: var(--bk-grade-900);
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+  .error-nav {
+    text-align: center;
+    .btn-go-home {
+      color: var(--white);
+      background-color: var(--color-100);
+      border-radius: 0.25rem;
+      &:hover {
+        background-color: var(--bk-grade-950);
+      }
+    }
+  }
+}
