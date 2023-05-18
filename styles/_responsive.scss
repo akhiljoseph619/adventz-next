@@ -2476,6 +2476,31 @@
   .error-page .error-body p {
     font-size: 1rem;
   }
+  .thanks-cover {
+    margin: 42% auto 0;
+  }
+  .thanks-cover figure {
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--color-100);
+  }
+  .thanks-cover .thank-graphics .graph-item {
+    width: 20px;
+  }
+  .thanks-cover .thanks-body h2 {
+    font-size: 1.5rem;
+  }
+  .thanks-cover .thanks-body p {
+    font-size: 1rem;
+  }
+  .scrollTop {
+    right: 0.5rem;
+    width: 36px;
+    height: 36px;
+  }
+  .scrollTop img {
+    width: 14px;
+  }
 }
 
 @media (max-width: 480px) {
