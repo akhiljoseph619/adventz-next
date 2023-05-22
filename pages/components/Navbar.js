@@ -1,10 +1,11 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-import { Container, Navbar } from 'react-bootstrap';
+import { useRouter } from 'next/router';
+import { Navbar, Container } from 'react-bootstrap';
+import Link from 'next/link';
 
-export default function navbarMain() {
+export default function NavbarMain() {
   const [stickyClass, setStickyClass] = useState('');
+  const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
     window.addEventListener('scroll', stickNavbar);
@@ -21,15 +22,27 @@ export default function navbarMain() {
 
   const router = useRouter();
   const currentRoute = router.pathname;
+
+  const handleLinkClick = () => {
+    setExpanded(false);
+  };
   return (
-    <Navbar bg="light" expand="lg" className={`navbar-main ${stickyClass}`}>
+    <Navbar
+      className={`navbar-main ${stickyClass}`}
+      bg="light"
+      expand="lg"
+      expanded={expanded}
+    >
       <Container fluid>
         <div className="logo">
           <Link href="/">
             <img src="images/adventz-logo.png" alt="aDventz Logo" />
           </Link>
         </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => setExpanded(!expanded)}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <ul className="navbar-nav info-nav">
             <li className="nav-item">
@@ -76,6 +89,7 @@ export default function navbarMain() {
                 className={
                   router.pathname == '/about' ? 'active nav-link' : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">About Us</span>
               </Link>
@@ -88,6 +102,7 @@ export default function navbarMain() {
                     ? 'active nav-link'
                     : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Products</span>
               </Link>
@@ -100,6 +115,7 @@ export default function navbarMain() {
                     ? 'active nav-link'
                     : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Services</span>
               </Link>
@@ -112,6 +128,7 @@ export default function navbarMain() {
                     ? 'active nav-link'
                     : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Portfolio</span>
               </Link>
@@ -121,6 +138,7 @@ export default function navbarMain() {
                 className="nav-link"
                 href="https://www.adventz.net/blog/"
                 target="_blank"
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Blog</span>
               </Link>
@@ -133,6 +151,7 @@ export default function navbarMain() {
                     ? 'active nav-link'
                     : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Achievement</span>
               </Link>
@@ -143,6 +162,7 @@ export default function navbarMain() {
                 className={
                   router.pathname == '/careers' ? 'active nav-link' : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Careers</span>
               </Link>
@@ -155,6 +175,7 @@ export default function navbarMain() {
                     ? 'active nav-link'
                     : 'nav-link'
                 }
+                onClick={handleLinkClick}
               >
                 <span className="nav-block">Contact</span>
               </Link>
