@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {isLoading ? (
+      {/* {isLoading ? (
         <PreLoader />
       ) : (
         <>
@@ -43,7 +43,12 @@ export default function App({ Component, pageProps }) {
           <GroupCompanies />
           <Footer />
         </>
-      )}
+      )} */}
+
+      <Navbar />
+      <Component {...pageProps} />
+      <GroupCompanies />
+      <Footer />
     </>
   );
 }
