@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }) {
           <Footer />
         </>
       )} */}
-
+      <PreLoader loading={isLoading} />
       <Navbar />
       <Component {...pageProps} />
       <GroupCompanies />
