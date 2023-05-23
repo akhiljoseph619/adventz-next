@@ -5,7 +5,7 @@ const ScrollToTopButton = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsVisible(window.pageYOffset > 100);
+      setIsVisible(window.pageYOffset > 200); // Change the scroll threshold to 200px
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -20,7 +20,11 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <button className="scrollTop" onClick={handleClick} title="Scroll to top">
+    <button
+      className={`scrollTop ${isVisible ? 'visible' : ''}`} // Add the 'visible' class based on isVisible state
+      onClick={handleClick}
+      title="Scroll to top"
+    >
       <img src="images/up-icon.svg" alt="Scroll to Top" />
     </button>
   );
