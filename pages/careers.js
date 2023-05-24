@@ -132,6 +132,11 @@ export default function Careers() {
                     We handpick our employees for not just their knowledge and
                     experience but their zeal to make a difference.
                   </p>
+                  <h4>
+                    If you share our values of integrity, commitment and
+                    passion, send us your CV to
+                    <a href="mailto:careers@adventz.net">careers@adventz.net</a>
+                  </h4>
                 </div>
               </div>
             </div>
