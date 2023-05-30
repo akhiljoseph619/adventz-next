@@ -6,7 +6,7 @@ export default function ThankYou() {
   return (
     <>
       <Head>
-        <title>Thank You for your subnmission</title>
+        <title>Thank You for your submission</title>
         <meta
           name="keywords"
           content="web design company in oman, web design &amp; development company in oman, adventz muscat oman"

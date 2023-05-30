@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "jquery": "^3.6.4",
@@ -19,6 +20,7 @@
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.5.2",
+    "react-hook-form": "^7.44.2",
     "react-owl-carousel": "^2.3.3",
     "react-scroll-trigger": "^0.6.14"
   },
