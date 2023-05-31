@@ -1401,8 +1401,24 @@ button:focus {
 
   .owl-theme .owl-nav .owl-prev,
   .owl-theme .owl-nav .owl-next {
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: var(--bk-grade-950);
+      background-position: center;
+      background-size: 20px;
+      background-repeat: no-repeat;
+    }
+  }
+  .owl-theme .owl-nav .owl-prev {
+    &:hover,
+    &:focus {
+      background-image: url(../public/images/arrow-left.svg);
+    }
+  }
+  .owl-theme .owl-nav .owl-next {
+    &:hover,
+    &:focus {
+      background-image: url(../public/images/arrow-right.svg);
     }
   }
 }
@@ -5688,84 +5704,90 @@ button:focus {
   }
 }
 
-
-.error{
-  color:red;
-  font-size:10px;
+.error {
+  color: red;
+  font-size: 10px;
   width: 100%;
 }
-.button-loader{
-  width:52px;
-  height:auto;
-  border-radius:100%;
-  position:relative;
-  margin:0 auto
+.button-loader {
+  width: 52px;
+  height: auto;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
 }
-#loader-4 span{
-  display:inline-block;
-  width:10px;
-  height:10px;
-  border-radius:100%;
-  background-color:#fff;
-  margin:0 2px;
-  opacity:0
+#loader-4 span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin: 0 2px;
+  opacity: 0;
 }
-#loader-4 span:nth-child(1){
-  animation:opacitychange 1s ease-in-out infinite
+#loader-4 span:nth-child(1) {
+  animation: opacitychange 1s ease-in-out infinite;
 }
-#loader-4 span:nth-child(2){
-  animation:opacitychange 1s ease-in-out .33s infinite
+#loader-4 span:nth-child(2) {
+  animation: opacitychange 1s ease-in-out 0.33s infinite;
 }
-#loader-4 span:nth-child(3){
-  animation:opacitychange 1s ease-in-out .66s infinite
+#loader-4 span:nth-child(3) {
+  animation: opacitychange 1s ease-in-out 0.66s infinite;
 }
-@keyframes opacitychange{
-  0%,100%{opacity:0}60%{opacity:1}
+@keyframes opacitychange {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
 }
-.grecaptcha-badge{
-  display:none;z-index:999
+.grecaptcha-badge {
+  display: none;
+  z-index: 999;
 }
-.assessmentForm{
+.assessmentForm {
   position: relative;
 }
-.popup-overlay{
-  position:absolute;
+.popup-overlay {
+  position: absolute;
   display: flex;
-  left:0;
-  top:0;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
-.popup-overlay.active{
+.popup-overlay.active {
   display: flex;
-  text-align:center;
+  text-align: center;
 }
-.popup-content{
-  display:block;
-  border:3px solid #666666;
+.popup-content {
+  display: block;
+  border: 3px solid #666666;
   background: #fff;
   border-radius: 5px;
   padding: 20px;
 }
-.popup-overlay.active .popup-content{
-  display:block;
+.popup-overlay.active .popup-content {
+  display: block;
 }
-.popup-overlay a.pop-close{
-  display:inline-block;
-  vertical-align:middle;
-  border-radius:30px;
-  margin:.20rem;
+.popup-overlay a.pop-close {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 30px;
+  margin: 0.2rem;
   font-size: 1rem;
-  color:#666666 !important;
+  color: #666666 !important;
   background: #ffffff;
-  border:1px solid #666666;
+  border: 1px solid #666666;
   padding: 5px 10px;
 }
-.popup-overlay a.pop-close:hover{
-  border:1px solid #666666;
-  background:#666666;
-  color:#ffffff;
+.popup-overlay a.pop-close:hover {
+  border: 1px solid #666666;
+  background: #666666;
+  color: #ffffff;
 }
