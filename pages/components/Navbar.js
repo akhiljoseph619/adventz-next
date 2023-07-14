@@ -77,7 +77,10 @@ export default function NavbarMain() {
             </li>
 
             <li className="nav-item nav-lng-item">
-              <Link className="nav-link nav-lng active-lng" href="">
+              <Link
+                className="nav-link nav-lng active-lng"
+                href="https://arabic.adventz.net/"
+              >
                 عربى
               </Link>
             </li>
