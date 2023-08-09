@@ -295,17 +295,17 @@ export default function About() {
                       <h3>Zahir Al Busaidi</h3>
                       <p>VP -Sadara Ventures</p>
                     </div>
-                    <div className="team-scroll">
-                      <p>
-                        With significant experience and proven leadership in
-                        development, planning and delivery of complex integrated
-                        systems; he plays a key role in setting business
-                        direction, leading the management team, developing and
-                        directly managing the corporate performance framework
-                        while paying special attention to talent acquisition,
-                        development and engagement.
-                      </p>
-                    </div>
+//                    <div className="team-scroll">
+//                      <p>
+//                        With significant experience and proven leadership in
+//                        development, planning and delivery of complex integrated
+//                        systems; he plays a key role in setting business
+//                        direction, leading the management team, developing and
+//                        directly managing the corporate performance framework
+//                        while paying special attention to talent acquisition,
+//                        development and engagement.
+//                      </p>
+//                    </div>
                   </figcaption>
                 </div>
               </div>
@@ -321,28 +321,28 @@ export default function About() {
                     </div>
                     <div className="team-img">
                       <img
-                        src="images/team-02.jpg"
+                        src="images/yousuf-img.jpg"
                         alt="social media marketing oman"
                       />
                     </div>
                   </figure>
                   <figcaption>
                     <div className="team-item-hd">
-                      <h3>George P Rajan</h3>
-                      <p>General Manager</p>
+                       <h3>Yousuf Al Mawali</h3>
+                      <p>Operations Manager </p>
                     </div>
-                    <div className="team-scroll">
-                      <p>
-                        George P Rajan, known for his witty management style
-                        helms the team at ADVENTZ. With over 15+ years of
-                        experience, he brings with him a calm and collected
-                        approach to client management and the day to day
-                        functions at the organization. He strongly believes in
-                        this notion that relationships are more binding than
-                        contracts and hence has been successful in forging long
-                        lasting client relationships.
-                      </p>
-                    </div>
+//                    <div className="team-scroll">
+//                      <p>
+//                        George P Rajan, known for his witty management style
+//                        helms the team at ADVENTZ. With over 15+ years of
+//                        experience, he brings with him a calm and collected
+//                        approach to client management and the day to day
+//                        functions at the organization. He strongly believes in
+//                        this notion that relationships are more binding than
+//                        contracts and hence has been successful in forging long
+//                        lasting client relationships.
+//                      </p>
+//                    </div>
                   </figcaption>
                 </div>
               </div>
@@ -368,15 +368,15 @@ export default function About() {
                       <h3>Al Zahra Al Sabqi</h3>
                       <p>HR Manager</p>
                     </div>
-                    <div className="team-scroll">
-                      <p>
-                        Sadara Group's Head of Human Resources, Zahra, is a calm
-                        and friendly individual with over five years of
-                        exceptional experience. She attends to and handles
-                        employee issues with the utmost care. Making certain
-                        that employees are well cared for.
-                      </p>
-                    </div>
+//                    <div className="team-scroll">
+//                      <p>
+//                        Sadara Group's Head of Human Resources, Zahra, is a calm
+//                        and friendly individual with over five years of
+//                        exceptional experience. She attends to and handles
+//                        employee issues with the utmost care. Making certain
+//                        that employees are well cared for.
+//                      </p>
+//                    </div>
                   </figcaption>
                 </div>
               </div>
