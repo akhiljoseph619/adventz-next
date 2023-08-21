@@ -193,7 +193,7 @@ export default function Footer() {
 
                       <li>
                         <Link
-                          href="https://www.adventz.net/blog/"
+                          href="https://arabic.adventz.net/blog/"
                           target="_blank"
                         >
                           Blog

@@ -139,7 +139,7 @@ export default function NavbarMain() {
             <li className="nav-item">
               <Link
                 className="nav-link"
-                href="https://www.adventz.net/blog/"
+                href="https://arabic.adventz.net/blog/"
                 target="_blank"
                 onClick={handleLinkClick}
               >
